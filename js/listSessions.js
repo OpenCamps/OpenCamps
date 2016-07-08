@@ -22,8 +22,7 @@
 		"timeStop":"10:40",
 		"sessionTitle":"Describing contextual behavior with CAVE Language",
 		"sessionSubTitle":"",
-		"sessionSummary":"As more and more contextual and conversational systems appear, there is demand to create new applications for them. However we lack a language to describe these applications. Conversational Architecture Visual Expression (CAVE) Language is a whiteboard-friendly visual design language for contextual and conversational systems. It is especially good for voice agents (like Amazon's Alexa), chat bots and other emerging platforms.
-http://www.cavelanguage.org/",
+		"sessionSummary":"<p>As more and more contextual and conversational systems appear, there is demand to create new applications for them. However we lack a language to describe these applications. Conversational Architecture Visual Expression (CAVE) Language is a whiteboard-friendly visual design language for contextual and conversational systems. It is especially good for voice agents (like Amazon's Alexa), chat bots and other emerging platforms.</p>",
 		"sessionType":"full",
 		"sessionSlides":"",
 		"sessionVideo":"",
