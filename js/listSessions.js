@@ -683,8 +683,8 @@
     "speakers": {
       "speaker": [
 			  {
- 				  "nameFirst":"Tim",
-				  "nameLast":"Lytle",
+ 				  "nameFirst":"Chris",
+				  "nameLast":"Tse",
 				  "photo":"speaker-chris-tse.jpg",
 				  "linkedin":"https://www.linkedin.com/in/christophertse",
 				  "twitter":"https://twitter.com/christse",
