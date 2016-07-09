@@ -608,8 +608,8 @@
 		"camp":"Apps Camp",
 		"tech":"apps",
 		"date":"2016-07-09",
-		"timeStart":"10:30",
-		"timeStop":"11:15",
+		"timeStart":"16:30",
+		"timeStop":"17:15",
 		"sessionTitle":"Firebase for Fun & Profit",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Real-time, reactive, responsive and cross-platform mobile-friendly apps are now the norm, not the exception. As mobile web developers, this creates a huge burden on us to learn disparate technologies and cobble together a complex architecture that can tackle our authentication, analytics, data storage and monetization needs. And that can take away valuable time and effort from focusing on what matters to our customers -- the front-end UX.   Enter Firebase. Firebase is a \"back-end as a service\" platform that works with a wide array of front-end technologies (web, Android, iOS) and has built-in support for these core requirements. And in 2016, it has evolved further to put growth, testing and monetization needs into the spotlight, allowing front-end developers to create modern, cross-platform apps and deploy them with minimal effort.</p>",
@@ -640,8 +640,8 @@
 		"camp":"Apps Camp",
 		"tech":"apps",
 		"date":"2016-07-09",
-		"timeStart":"14:30",
-		"timeStop":"15:15",
+		"timeStart":"9:30",
+		"timeStop":"10:15",
 		"sessionTitle":"So, You've Decided On 'API First'",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Building your next mobile app, SaaS product, or killer social network using an API first philosophy is a great decision. It can allow your team to develop in parallel, enable expansion to multiple platforms, and create opportunity for outside integration. But once you've made that decision, what's next? How do you actually do it? /n What options are there for authentication? How do you reset a password with an API? Is hypermedia worth considering for internal APIs? How do you handle unauthenticated access from a client side javascript application? What format is best for API requests and responses? Should you version your API now, or later? Let's talk about how you can determine the right answers for all those questions, and give your API a solid foundation. Because your API may start out serving the needs of internal mobile clients, or single page web apps, but one day (sooner than you think) you'll probably be turning it into a public API.</p>",
@@ -668,7 +668,38 @@
     }  
 	},
 
-
+	{
+		"camp":"Apps Camp",
+		"tech":"apps",
+		"date":"2016-07-09",
+		"timeStart":"15:30",
+		"timeStop":"16:15",
+		"sessionTitle":"Card UI in Progressive Web Apps'",
+		"sessionSubTitle":"",		
+			"sessionSummary":"<p>On the mobile application development front, the pendulum is finally swinging back to Open Web platform. While the Death of the App Store is probably a premature pronouncement, the Rebirth of the Mobile Web is definitively already well on its way. This new vision of the mobile web is clearly trumpet by Google under the moniker of Progressive Web Apps (PWA), which leverages the new mobile browser features to allow apps to load instantly, securely, and scrumptiously. There are many examples of PWAs that match the capability of native app, and by nature of the launch by a simple URL, exceeds the convenience of a native app counterpart.</p><p>Getting a web app added to a home screen is, however, only one way to get users into your application experience. And it may not be the best one. With mobile screen time increasingly and overwhelmingly spent within top 25 social or messaging apps, app developers needs to figure out how to tailor their Open Web app experience within the embedded web browsers of these dominant networks, such as Facebook, Twitter, Snapchat, Pinterest, or even Slack.</p><p>Chris Tse, the founding director of CardStack and CTO of Monegraph, will show how app developers can apply Card UI patterns and architecture to optimize their mobile web apps for this new world. where embedding within the user’s daily workflow is more fruitful than begging to be installed. Chris will present a card-based application lifecycle and rubric that developers can reference to modularize their web application into card-sized bits, so that the pertinent, syndicated “cards” load instantly when opened with a simple sharable link, while deeper features are lazily and progressive loaded as the user are drawn deeper into a more explorative experience. Give the user what they want quickly, and you may just earn the \“Add the Home Screen\” tap.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Tim",
+				  "nameLast":"Lytle",
+				  "photo":"speaker-chris-tse.jpg",
+				  "linkedin":"https://www.linkedin.com/in/christophertse",
+				  "twitter":"https://twitter.com/christse",
+				  "github":"https://github.com/tjlytle",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+	
 
 
 
@@ -2519,9 +2550,9 @@
 		"date":"2016-07-16",
 		"timeStart":"",
 		"timeStop":"",
-		"sessionTitle":"",
+		"sessionTitle":"Elixir Retrospective: 18 months and counting",
 		"sessionSubTitle":"",
-		"sessionSummary":"",
+		"sessionSummary":"In this retrospective, we'll explore how Bleacher Report came to adopt Elixir and how Elixir development has matured over the last year and a half.  The talk will focus on the initial technical challenges of adopting a new and young language and framework and how they were overcome. Moreover, learn how Elixir and Phoenix have increased both developer productivity and stakeholder satisfaction and why Bleacher Report has fully committed to Elixir and Phoenix.",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -2539,7 +2570,7 @@
 				  "openSourceRole":"",
 				  "organization":"Bleacher Report",
 				  "role":"Lead Engineer",
-				  "bio":""
+				  "bio":"<p>Ben Marx is a lead engineer at Bleacher Report where he helps to lead development from Ruby and Rails to Elixir and Phoenix.</p>"
         }
       ]
     }  
