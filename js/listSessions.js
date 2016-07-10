@@ -1120,7 +1120,7 @@
           "nameLast": "Rodriguez",
           "photo": "speaker-natalia-rodriguez.jpg",
           "linkedin": "",
-          "twitter": "",
+          "twitter": "https://twitter.com/nataliastweeet",
           "github": "",
           "facebook": "",
           "website": "",
