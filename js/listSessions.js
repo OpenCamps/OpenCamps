@@ -1530,7 +1530,7 @@
     "timeStop": "15:45",
     "sessionTitle": "Bridging the gap between design & development",
     "sessionSubTitle": "",
-    "sessionSummary": "",
+    "sessionSummary": "<p>Designers and developers often have specific goals when creating interactive experiences. Because our creative processes overlap and influence one another, knowing each other’s considerations is key to designing and implementing experiences that are both usable and performant. How can designers help developers? How can developers help designers? In this presentation, we will explore communication and collaboration practices that help in this process.</p>",
     "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
@@ -1548,7 +1548,7 @@
           "openSourceRole": "",
           "organization": "",
           "role": "",
-          "bio": ""
+          "bio": "Amanda is the lead UX developer at DockYard, a design-driven software consultancy based out of Boston, MA. She comes from a visual background having graduated with a BFA in painting, but another part of her brain fell in love with CSS. Finding better user experience solutions by balancing designers' and developers' priorities fascinates her. She is always trying to improve the designer-developer relationship. Amanda is also an instructor at MassArt, a co-organizer of the Boston CSS Meetup and a teacher for Girl Develop It."
         }
       ]
     }
