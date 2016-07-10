@@ -1402,7 +1402,7 @@
     "timeStop": "11:00",
     "sessionTitle": "Data Stories",
     "sessionSubTitle": "",
-    "sessionSummary": "",
+    "sessionSummary": "<p>How to you use data to tell a story? How do you work with data to tell a story that and reach an audience? Learn some tips and tricks from Sarah Slobin, the Things editor at Quartz and a seasoned Visual Journalist who has worked for the New York Times, Fortune and the Wall Street Journal.</p>",
     "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
