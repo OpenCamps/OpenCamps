@@ -204,27 +204,16 @@
 	 {
 
 		"camp":"AI Camp",
-
 		"tech":"ai",
-
 		"date":"2016-07-12",
-
 		"timeStart":"16:00",
-
 		"timeStop":"16:15",
-
 		"sessionTitle":"Big Data and Little Users: Making AI for Kids",
-
 		"sessionSubTitle":"",
-
 		"sessionSummary":"<p>A 15 minute talk with the CTO of Elemental Path about the opportunities and challenges of working with an AI based system designed for kids from the perspective of content and privacy.</p>",
-
 		"sessionType":"Session",
-
 		"sessionSlides":"",
-
 		"sessionVideo":"",
-
     "speakers": {
 
       "speaker": [
@@ -232,15 +221,10 @@
 			  {
 
  				  "nameFirst":"JP",
-
 				  "nameLast":"Benini",
-
-				  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/040/261/3403a19.jpg",
-
+				  "photo":"speaker-jp-benini.jpg",
 				  "linkedin":"https://www.linkedin.com/in/jpbenini",
-
 				  "twitter":"https://twitter.com/jpnyc81",
-
 				  "github":"https://github.com/JPNYC81",
 
 				  "facebook":"",
