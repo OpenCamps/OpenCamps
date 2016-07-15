@@ -230,19 +230,47 @@
 				  "facebook":"",
 
 				  "website":"https://cognitoys.com",
-
 				  "openSourceRole":"",
-
 				  "organization":"Elemental Path",
-
 				  "role":"CTO",
-
 				  "bio":"<p>JP is the CTO of Elemental Path, the first company to integrate IBM's Watson into toys. This gives the potential for the toys to evolve and grow with children.</p>",
 
         }
 
       ]
 
+    }  
+
+	},
+	  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"16:30",
+		"timeStop":"16:45",
+		"sessionTitle":"Reinforcement Learning",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>A discussion on reinforcement learning.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Jessica",
+				  "nameLast":"Zosa Forde",
+				  "photo":"speaker-jessica-forde.jpg",
+				  "linkedin":"https://www.linkedin.com/in/jessica-forde-4aa30615",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Columbia University",
+				  "role":"Data Scientist",
+				  "bio":"<p>Jessica is a data scientist at Columbia University.</p>",
+        }
+      ]
     }  
 
 	},
