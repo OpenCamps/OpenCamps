@@ -20,7 +20,7 @@
 		"date":"2016-07-12",
 		"timeStart":"08:30",
 		"timeStop":"09:00",
-		"sessionTitle":"Registration & Breakfast",
+		"sessionTitle":"Registration",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
 		"sessionType":"logistical",
