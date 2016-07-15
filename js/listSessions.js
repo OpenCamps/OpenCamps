@@ -1852,12 +1852,280 @@
 
   // ELIXIR CAMP NYC
 
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-15",
+		"timeStart":"09:00",
+		"timeStop":"18:00",
+		"room":"",
+		"sessionTitle":"Friday Hacking & Contribution Sprints",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>We have space available where attendees can informally gather to come and hack on their projects & make contributions.</p>",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},	
+		
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-15",
+		"timeStart":"15:15",
+		"timeStop":"17:15",
+		"room":"",
+		"sessionTitle":"Friday Aft Workshop - Who’s who?  Authenticating users with Ueberauth and Guardian",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>What is JWT?  Do I need Guardian and Ueberauth?  In this workshop we’ll look at JSON Web Tokens, Guardian, and Ueberauth to see how these technologies can be applied to our Phoenix applications.  We’ll finish up the workshop by implementing user authentication and permissions into a simple Phoenix app.</p>",
+		"sessionType":"workshop",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},	
+		
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"09:30",
+		"timeStop":"09:45",
+		"room":"Conference Room 12",
+		"sessionTitle":"Saturday Morning Intros & Welcome",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"Intros",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},	
+
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-15",
+		"timeStart":"09:30",
+		"timeStop":"18:00",
+		"room":"Conference Room F",
+		"sessionTitle":"Saturday Hacking & Contribution Sprints",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>We have space available where attendees can  gather to come and hack on their projects & make contributions. The Sat & Sun hacking/contribution session will be more formal/organized, than the informal session on Fri. Mentoring and onboarding will be available for new contributors and community members</p>",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
+
 	{
 		"camp":"Elixir Camp NYC",
 		"tech":"elixir",
 		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"09:45",
+		"timeStop":"10:30",
+		"room":"Conference Room 12",
+		"sessionTitle":"It's An Evolution! Simulating Life With OTP",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>What if we could simulate life? What if we could watch the evolution of a million processes at once, with the strong surviving and passing on their traits?</p><p>It all starts with a population seed. Each organism (represented by a spawned process) will live, eat, breed, and eventually die. These organisms will live out their simple lives with a handful of modeled behaviors. Whatever happens in one generation affects all the future ones.</p><p>These complex worlds can easily unfold with the help of Elixir/OTP. In this talk, we will seed a population and then simulate the evolutionary process, while OTP Supervisors, Servers, and Events are utilized to manage the concurrent life processes. Essentially, we'll replicate the changing world in an OTP Petri dish. ¡Viva La Evolución!</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Johnny",
+				  "nameLast":"Winn",
+				  "photo":"speaker-johnny-winn.jpg",
+				  "linkedin":"https://www.linkedin.com/in/johnnywinn5",
+				  "twitter":"https://twitter.com/johnny_rugger",
+				  "github":"https://github.com/nurugger07",
+				  "facebook":"",
+				  "website":"https://soundcloud.com/elixirfountain",
+				  "openSourceRole":"Elixir Fountain Host/Founder",
+				  "organization":"ActiveProspect",
+				  "role":"Sr Software Engineer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+	{
+		"camp":"Erlang Camp",
+		"tech":"erlang",
+		"date":"2016-07-16",
+		"timeStart":"10:30",
+		"timeStop":"11:15",
+		"room":"Conference Room 12",
+		"sessionTitle":"Building a high performance Erlang Kafka producer",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>There's already plenty of open-source Erlang Kafka producers in the wild. Unfortunately, none of the them are performant enough for our scale (AdGear). In this talk, we will present Flare, our Kafka producer which was built from the ground up with a focus on performance and correctness.</p><ul><li>Kafka introduction</li><li>Flare's architecture</li><li>Shackle framework</li><li>flare_client</li><li>Build tools (Make, Rebar3)</li><li>Testing tools (Dialyzer, Cover, EUnit, XRef)</li><li>Performance tools (Fprofx, Timing)</li><li>Best practices / tips / tricks</li></ul>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Louis-Philippe",
+				  "nameLast":"Gauthier",
+				  "photo":"speaker-louis-philippe-gauthier.jpg",
+				  "linkedin":"https://www.linkedin.com/in/lpgauth",
+				  "twitter":"https://twitter.com/lpgauth",
+				  "github":"https://github.com/lpgauth",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"AdGear",
+				  "role":"Director of Platform Engineering",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+
+
+  // PHOENIX CAMP NYC
+	{
+		"camp":"Phoenix Camp NYC",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"11:15",
+		"timeStop":"12:00",
+		"room":"Conference Room 12",
+		"sessionTitle":"From Rails to Phoenix",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Many Rails developers are jumping ship for Phoenix, learn why you and your organization should consider making the same move. Case studies and hard data will tell the story of how Phoenix is here to stay but also the best choice for new and existing applications.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"<script async class=\"speakerdeck-embed\" data-id=\"6ba495d8923c4a89a6de7a5ea4443686\" data-ratio=\"1.33333333333333\" src=\"//speakerdeck.com/assets/embed.js\"></script>",
+		"sessionVideo":"<iframe width=\"480\" height=\"315\" src=\"https://www.youtube.com/embed/530z-_yjdlU\" frameborder=\"0\" allowfullscreen></iframe>",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Brian",
+				  "nameLast":"Cardarella",
+				  "photo":"speaker-brian-cardarella.jpg",
+				  "linkedin":"https://www.linkedin.com/in/briancardarella",
+				  "twitter":"https://twitter.com/bcardarella",
+				  "github":"https://github.com/bcardarella",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Dockyard",
+				  "role":"Founder, CEO",
+				  "bio":"Brian is the CEO of DockYard, an Elixir & Phoenix consultancy."
+        }
+      ]
+    }  
+	},
+
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"12:00",
+		"timeStop":"13:00",
+		"room":"East Plaza Upstairs",
+		"sessionTitle":"Lunch",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"Lunch",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},	
+
+	{
+		"camp":"Elixir Camp NYC",
+		"tech":"elixir",
+		"date":"2016-07-16",
+		"timeStart":"13:00",
+		"timeStop":"14:00",
+		"room":"Conference Room 12",
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
@@ -1885,11 +2153,414 @@
 	},	
 
 	{
+		"camp":"Phoenix Camp NYC",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"14:00",
+		"timeStop":"14:50",
+		"room":"Conference Room 12",
+		"sessionTitle":"Phoenix Channels - a Distributed PubSub and Presence Platform",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Channels are a really exciting and powerful part of the Phoenix Framework. They allow us to easily add soft-realtime features to our applications. Channels are based on a simple idea - sending and receiving messages.</p><p>In this talk, we\'ll take a look under the hood and learn how to build incredibly powerful, event driven systems with Phoenix Channels. We\'ll also look at how Phoenix makes it easier to track presence in a distributed system.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Sonny",
+				  "nameLast":"Scroggin",
+				  "photo":"speaker-sonny-scroggin.jpg",
+				  "linkedin":"https://www.linkedin.com/in/scrogson",
+				  "twitter":"https://twitter.com/scrogson",
+				  "github":"https://github.com/scrogson",
+				  "facebook":"",
+				  "website":"http://scrogg.in/",
+				  "stackoverflow":"",
+				  "openSourceRole":"Creator of Hedwig IM, and Core Team Member for Phoenix Framework & ueberauth",
+				  "organization":"IBM",
+				  "role":"Senior Software Engineer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+	{
+		"camp":"Phoenix Camp NYC",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"15:00",
+		"timeStop":"15:50",
+		"room":"Conference Room 12",
+		"sessionTitle":"Elixir Retrospective: 18 months and counting",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>In this retrospective, we'll explore how Bleacher Report came to adopt Elixir and how Elixir development has matured over the last year and a half.  The talk will focus on the initial technical challenges of adopting a new and young language and framework and how they were overcome. Moreover, learn how Elixir and Phoenix have increased both developer productivity and stakeholder satisfaction and why Bleacher Report has fully committed to Elixir and Phoenix.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Ben",
+				  "nameLast":"Marx",
+				  "photo":"speaker-ben-marx.jpg",
+				  "linkedin":"https://www.linkedin.com/in/bgmarx",
+				  "twitter":"https://twitter.com/bgmarx",
+				  "github":"https://github.com/bgmarx",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Bleacher Report",
+				  "role":"Lead Engineer",
+				  "bio":"<p>Ben Marx is a lead engineer at Bleacher Report where he helps to lead development from Ruby and Rails to Elixir and Phoenix.</p>"
+        }
+      ]
+    }  
+	},
+
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"15:50",
+		"timeStop":"16:10",
+		"room":"1B Neck",
+		"sessionTitle":"Coffee Break",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"Break",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},	
+
+
+	{
+		"camp":"Phoenix Camp NYC",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"16:10",
+		"timeStop":"17:00",
+		"room":"Conference Room 12",
+		"sessionTitle":"Umbrella Applications with Phoenix",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>The default project structure generated by Phoenix is great for getting started quickly. At some point though, your application may grow in a way which requires splitting it out into many parts.</p><p>In this talk we will look at taking an existing application that was built using the default Phoenix project structure and converting it to an umbrella application. We will try to do this in a way that is painless and keeps the project history in tact. We will investigate techniques that encourage isolation between applications and look at some ways to move large sections of code between siblings in the umbrella project.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Gary",
+				  "nameLast":"Rennie",
+				  "photo":"speaker-gary-rennie.jpg",
+				  "linkedin":"",
+				  "twitter":"https://twitter.com/thegazler",
+				  "github":"https://github.com/Gazler",
+				  "facebook":"",
+				  "website":"http://blog.gazler.com/",
+				  "stackoverflow":"http://stackoverflow.com/users/219743/Gazler",
+				  "openSourceRole":"Phoenix Core Team Member",
+				  "organization":"VoiceLayer",
+				  "role":"Elixir Developer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+
+	{
+		"camp":"Phoenix Camp NYC",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"17:10",
+		"timeStop":"18:00",
+		"room":"Conference Room 12",
+		"sessionTitle":"Building Voice Enabled Applications in Phoenix",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Voice enabled applications are going mainstream and are changing how we interact with devices. Amazon lead the way with Amazon Alexa but Google has announced Google Home and there are rumors that Apple will follow suit. On this talk we will describe the main concepts behind voice enabled applications and how to build Alexa skills in Phoenix. We will build an application from scratch and interact with it using voice.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Gabi",
+				  "nameLast":"Zuniga",
+				  "photo":"speaker-gabi-zuniga.jpg",
+				  "linkedin":"",
+				  "twitter":"https://twitter.com/gabiz",
+				  "github":"https://github.com/gabiz",
+				  "facebook":"",
+				  "website":"",
+				  "stackoverflow":"http://stackoverflow.com/users/219743/Gazler",
+				  "openSourceRole":"",
+				  "organization":"VoiceLayer",
+				  "role":"CTO",
+				  "bio":"Gabi works as CTO at VoiceLayer. He has been developing and managing software development for over 15 years in a wide variety of fields, including multimedia, networking, web, and mobile (iOS and Android). Gabi is passionate about learning new technologies. He enjoys innovating from early startup stages and contributed to the success of Kealia, Pacific Broadband and Chromatic Research, which were acquired by Sun Microsystems, Juniper Networks and ATI, respectively. Previously Gabi led the development of the first software based video decoders at IBM's T.J. Watson Research Center."
+        }
+      ]
+    }  
+	},
+
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"18:00",
+		"timeStop":"21:00",
+		"room":"East Plaza Upstairs",
+		"sessionTitle":"Saturday Evening Social Event",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"Social",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},	
+
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-17",
+		"timeStart":"09:30",
+		"timeStop":"09:45",
+		"room":"East Plaza Upstairs",
+		"sessionTitle":"Sunday Morning Intros & Welcome",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"Intros",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
+
+	{
+		"camp":"Phoenix Camp NYC",
+		"tech":"phoenix",
+		"date":"2016-07-17",
+		"timeStart":"09:45",
+		"timeStop":"10:30",
+		"room":"Conference Room 12",
+		"sessionTitle":"Building & Deploying a Real Suite of OTP Apps",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>An examination of Phoenix, OTP, Umbrellas, and more in Elixir in Phoenix from 0 to deployment. Recently we had to build a large suite of services for a client and this examines the net wins on both the engineering and business sides of the equation; diving into architecting and building OTP apps, Phoenix, Ecto, and deploying it all into the real world.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Bobby",
+				  "nameLast":"Grayson",
+				  "photo":"speaker-bobby-grayson.jpg",
+				  "linkedin":"https://www.linkedin.com/in/robert-grayson-92506872",
+				  "twitter":"https://twitter.com/yburyug",
+				  "github":"https://github.com/ybur-yug",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"CometaWorks",
+				  "role":"Software Engineer - Backend, Systems, API, ETL",
+				  "bio":"Bobby is a wannabe comic, nomad, and sailor living in San Juan, Puerto Rico building cool things in Elixir, Ruby, Phoenix, and Ember.js."
+        }
+      ]
+    }  
+	},
+
+	{
+		"camp":"Elixir Camp NYC",
+		"tech":"elixir",
+		"date":"2016-07-17",
+		"timeStart":"10:30",
+		"timeStop":"11:15",
+		"room":"Conference Room 12",
+		"sessionTitle":"Stately Machines: OTP 19, Elixir, and gen_statem",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>OTP 19 is a big step forward for both Erlang and Elixir developers. One exciting new feature is gen_statem, a state machine behavior. State machines are incredibly versatile, and can be used to implement many types of functionality, including network protocols, trading systems, and compilers.</p><p>Together, we'll take a guided tour of gen_statem, and see how easy it is to take advantage of its functionality to implement state machines in our apps. We'll also take a look at gen_state_machine, an Elixir package which implements an idiomatic Elixir wrapper for gen_statem.  Join me in transitioning to a new state of enlightenment about state machines in Elixir!</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Eric",
+				  "nameLast":"Entin",
+				  "photo":"speaker-eric-entin.jpg",
+				  "linkedin":"https://www.linkedin.com/in/ericentin",
+				  "twitter":"https://twitter.com/antipax",
+				  "github":"https://github.com/antipax",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"FanDuel",
+				  "role":"Principal Software Engineer",
+				  "bio":"<p>Eric Entin (@antipax) leads a team at FanDuel that works on Elixir/Phoenix-based projects. A polyglot programmer who has worked professionally in many languages including Haskell, Ruby, and C++ for over 10 years, Elixir is by far his favorite. He has contributed to Elixir, Phoenix, Ecto, and Postgrex.</p><p>A lifelong NYC resident and proud graduate of the Bronx High School of Science, he now lives in Queens with his 2 cats and fiancé. Eric's interests include music production, backcountry camping, and smoked cheeses.</p>"
+        }
+      ]
+    }  
+	},
+
+		
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-17",
+		"timeStart":"10:30",
+		"timeStop":"12:30",
+		"room":"",
+		"sessionTitle":"Sun Morning Workshop - Rails to Elixir/Phoenix",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>A workshop by Ben Marx, from Bleacher Report, on migrating from Rails to Elixir/Phoenix.</p>",
+		"sessionType":"Workshop",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Ben",
+				  "nameLast":"Marx",
+				  "photo":"speaker-ben-marx.jpg",
+				  "linkedin":"https://www.linkedin.com/in/bgmarx",
+				  "twitter":"https://twitter.com/bgmarx",
+				  "github":"https://github.com/bgmarx",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Bleacher Report",
+				  "role":"Lead Engineer",
+				  "bio":"<p>Ben Marx is a lead engineer at Bleacher Report where he helps to lead development from Ruby and Rails to Elixir and Phoenix.</p>"
+        }
+      ]
+    }  
+	},
+
+	{
+		"camp":"Elixir Camp NYC",
+		"tech":"elixir",
+		"date":"2016-07-17",
+		"timeStart":"11:15",
+		"timeStop":"12:00",
+		"room":"Conference Room 12",
+		"sessionTitle":"Elixir School, answering the important questions: who, what, why, when and where.",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Sean",
+				  "nameLast":"Callan",
+				  "photo":"speaker-sean-callan.jpg",
+				  "linkedin":"https://www.linkedin.com/in/seandcallan",
+				  "twitter":"https://twitter.com/doomspork",
+				  "github":"https://github.com/doomspork",
+				  "facebook":"",
+				  "website":"http://seancallan.com/",
+				  "openSourceRole":"Creator of Elixir School",
+				  "organization":"",
+				  "role":"",
+				  "bio":"<p></p>"
+        }
+      ]
+    }  
+	},
+
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"12:00",
+		"timeStop":"13:00",
+		"room":"East Plaza Upstairs",
+		"sessionTitle":"Lunch",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"Lunch",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},	
+
+	{
 		"camp":"Elixir Camp NYC",
 		"tech":"elixir",
 		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"13:00",
+		"timeStop":"13:50pm",
+		"room":"Conference Room 12",
 		"sessionTitle":"The Tension Between Expediency and Correctness",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>In this talk, we'll look at some examples of tradeoffs between expediency and correctness in programming, and the Pros and Cons on each side of the spectrum.  We'll also discuss what this has to do with Elixir, and how it plays into another language that I feel pairs very nicely with Elixir</p>.",
@@ -1917,143 +2588,41 @@
 	},	
 
 
- 
-
-	{
-		"camp":"Elixir Camp NYC",
-		"tech":"elixir",
+ {
+		"camp":"Phoenix Camp",
+		"tech":"phoenix",
 		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"",
+		"timeStart":"14:00",
+		"timeStop":"17:30",
+		"room":"Conference Room 12",
+		"sessionTitle":"Sunday Afternoon Hacking & Contribution Sprints",
 		"sessionSubTitle":"",
-		"sessionSummary":"",
-		"sessionType":"Session",
+		"sessionSummary":"<p>We have space available where attendees can  gather to come and hack on their projects & make contributions. The Sat & Sun hacking/contribution session will be more formal/organized, than the informal session on Fri. Mentoring and onboarding will be available for new contributors and community members</p>",
+		"sessionType":"Contributing",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
       "speaker": [
 			  {
- 				  "nameFirst":"Sean",
-				  "nameLast":"Callan",
-				  "photo":"speaker-sean-callan.jpg",
-				  "linkedin":"https://www.linkedin.com/in/seandcallan",
-				  "twitter":"https://twitter.com/doomspork",
-				  "github":"https://github.com/doomspork",
-				  "facebook":"",
-				  "website":"http://seancallan.com/",
-				  "openSourceRole":"Creator of Elixir School",
-				  "organization":"",
-				  "role":"",
-				  "bio":"<p></p>"
-        }
-      ]
-    }  
-	},
-
-	{
-		"camp":"Elixir Camp NYC",
-		"tech":"elixir",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Stately Machines: OTP 19, Elixir, and gen_statem",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>OTP 19 is a big step forward for both Erlang and Elixir developers. One exciting new feature is gen_statem, a state machine behavior. State machines are incredibly versatile, and can be used to implement many types of functionality, including network protocols, trading systems, and compilers.</p><p>Together, we'll take a guided tour of gen_statem, and see how easy it is to take advantage of its functionality to implement state machines in our apps. We'll also take a look at gen_state_machine, an Elixir package which implements an idiomatic Elixir wrapper for gen_statem.  Join me in transitioning to a new state of enlightenment about state machines in Elixir!</p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Eric",
-				  "nameLast":"Entin",
-				  "photo":"speaker-eric-entin.jpg",
-				  "linkedin":"https://www.linkedin.com/in/ericentin",
-				  "twitter":"https://twitter.com/antipax",
-				  "github":"https://github.com/antipax",
+ 				  "nameFirst":"Bobby",
+				  "nameLast":"Grayson",
+				  "photo":"speaker-bobby-grayson.jpg",
+				  "linkedin":"https://www.linkedin.com/in/robert-grayson-92506872",
+				  "twitter":"https://twitter.com/yburyug",
+				  "github":"https://github.com/ybur-yug",
 				  "facebook":"",
 				  "website":"",
 				  "openSourceRole":"",
-				  "organization":"FanDuel",
-				  "role":"Principal Software Engineer",
-				  "bio":"<p>Eric Entin (@antipax) leads a team at FanDuel that works on Elixir/Phoenix-based projects. A polyglot programmer who has worked professionally in many languages including Haskell, Ruby, and C++ for over 10 years, Elixir is by far his favorite. He has contributed to Elixir, Phoenix, Ecto, and Postgrex.</p><p>A lifelong NYC resident and proud graduate of the Bronx High School of Science, he now lives in Queens with his 2 cats and fiancé. Eric's interests include music production, backcountry camping, and smoked cheeses.</p>"
+				  "organization":"CometaWorks",
+				  "role":"Software Engineer - Backend, Systems, API, ETL",
+				  "bio":"Bobby is a wannabe comic, nomad, and sailor living in San Juan, Puerto Rico building cool things in Elixir, Ruby, Phoenix, and Ember.js."
         }
       ]
     }  
-	},
-
-	{
-		"camp":"Elixir Camp NYC",
-		"tech":"elixir",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"It's An Evolution! Simulating Life With OTP",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>What if we could simulate life? What if we could watch the evolution of a million processes at once, with the strong surviving and passing on their traits?</p><p>It all starts with a population seed. Each organism (represented by a spawned process) will live, eat, breed, and eventually die. These organisms will live out their simple lives with a handful of modeled behaviors. Whatever happens in one generation affects all the future ones.</p><p>These complex worlds can easily unfold with the help of Elixir/OTP. In this talk, we will seed a population and then simulate the evolutionary process, while OTP Supervisors, Servers, and Events are utilized to manage the concurrent life processes. Essentially, we'll replicate the changing world in an OTP Petri dish. ¡Viva La Evolución!</p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Johnny",
-				  "nameLast":"Winn",
-				  "photo":"speaker-johnny-winn.jpg",
-				  "linkedin":"https://www.linkedin.com/in/johnnywinn5",
-				  "twitter":"https://twitter.com/johnny_rugger",
-				  "github":"https://github.com/nurugger07",
-				  "facebook":"",
-				  "website":"https://soundcloud.com/elixirfountain",
-				  "openSourceRole":"Elixir Fountain Host/Founder",
-				  "organization":"ActiveProspect",
-				  "role":"Sr Software Engineer",
-				  "bio":""
-        }
-      ]
-    }  
-	},		
+	},	
+		
 	
 	
-
-
-  // ERLANG CAMP NYC
-
-	{
-		"camp":"Erlang Camp",
-		"tech":"erlang",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"",
-		"sessionSubTitle":"",
-		"sessionSummary":"",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Louis-Philippe",
-				  "nameLast":"Gauthier",
-				  "photo":"speaker-louis-philippe-gauthier.jpg",
-				  "linkedin":"https://www.linkedin.com/in/lpgauth",
-				  "twitter":"https://twitter.com/lpgauth",
-				  "github":"https://github.com/lpgauth",
-				  "facebook":"",
-				  "website":"",
-				  "openSourceRole":"",
-				  "organization":"AdGear",
-				  "role":"Director of Platform Engineering",
-				  "bio":""
-        }
-      ]
-    }  
-	},
-
-
-
 
 
   // FRONTEND CAMP
@@ -2251,12 +2820,46 @@
   
   
   // NERVES CAMP NYC
+
+  {
+		"camp":"Nerves Camp",
+		"tech":"nerves",
+		"date":"2016-07-17",
+		"timeStart":"09:30",
+		"timeStop":"09:45",
+		"room":"Conference Room E",
+		"sessionTitle":"Nerves Camp Intros",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
 	{
 		"camp":"Nerves Camp NYC",
 		"tech":"nerves",
 		"date":"2016-07-17",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"10:30",
+		"timeStop":"11:15",
+		"room":"Conference Room E",
 		"sessionTitle":"A Society of Robotic Minds",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>According to Marvin Minsky, our minds are societies of agents. These agents are simple, many and varied, and it's from their interactions that intelligent behavior emerges. What if we could endow autonomous robots each with a Society of Mind, and what if we could entangle these minds into a society of robots? Thanks to Nerves, Elixir runs comfortably on the EV3 brick, which makes it surprisingly easy to implement Minsky's concept using inexpensive Lego robots. We will discuss the concept of Society of Mind, our interpretation of it and its implementation for Lego robots. We will explore how agents are used to generate and orchestrate perceptions, motivation, intents and behaviors. We will demonstrate how robots can form peer-to-peer networks over which they share perceptions for better (collaboration) or for worse (group panic).</p>",
@@ -2287,8 +2890,9 @@
 		"camp":"Nerves Camp NYC",
 		"tech":"nerves",
 		"date":"2016-07-17",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"11:15",
+		"timeStop":"12:00",
+		"room":"Conference Room E",
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
@@ -2319,8 +2923,9 @@
 		"camp":"Nerves Camp NYC",
 		"tech":"nerves",
 		"date":"2016-07-17",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"09:45",
+		"timeStop":"10:30",
+		"room":"Conference Room E",
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
@@ -2347,8 +2952,71 @@
     }  
 	},
 
+  {
+		"camp":"Nerves Camp",
+		"tech":"nerves",
+		"date":"2016-07-17",
+		"timeStart":"12:00",
+		"timeStop":"13:00",
+		"room":"Conference Room E",
+		"sessionTitle":"Lunch",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
 
-
+  {
+		"camp":"Nerves Camp",
+		"tech":"nerves",
+		"date":"2016-07-17",
+		"timeStart":"13:00",
+		"timeStop":"End of Day",
+		"room":"Conference Room E",
+		"sessionTitle":"Nerves Workshop",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"workshop",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
 
 
   // NEXT GEN CAMP
@@ -2523,203 +3191,6 @@
 	
 
 
-
-  // PHOENIX CAMP NYC
-	{
-		"camp":"Phoenix Camp NYC",
-		"tech":"phoenix",
-		"date":"2016-07-16",
-		"timeStart":"14:30",
-		"timeStop":"15:30",
-		"sessionTitle":"From Rails to Phoenix",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>Many Rails developers are jumping ship for Phoenix, learn why you and your organization should consider making the same move. Case studies and hard data will tell the story of how Phoenix is here to stay but also the best choice for new and existing applications.</p>",
-		"sessionType":"Session",
-		"sessionSlides":"<script async class=\"speakerdeck-embed\" data-id=\"6ba495d8923c4a89a6de7a5ea4443686\" data-ratio=\"1.33333333333333\" src=\"//speakerdeck.com/assets/embed.js\"></script>",
-		"sessionVideo":"<iframe width=\"480\" height=\"315\" src=\"https://www.youtube.com/embed/530z-_yjdlU\" frameborder=\"0\" allowfullscreen></iframe>",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Brian",
-				  "nameLast":"Cardarella",
-				  "photo":"speaker-brian-cardarella.jpg",
-				  "linkedin":"https://www.linkedin.com/in/briancardarella",
-				  "twitter":"https://twitter.com/bcardarella",
-				  "github":"https://github.com/bcardarella",
-				  "facebook":"",
-				  "website":"",
-				  "openSourceRole":"",
-				  "organization":"Dockyard",
-				  "role":"Founder, CEO",
-				  "bio":"Brian is the CEO of DockYard, an Elixir & Phoenix consultancy."
-        }
-      ]
-    }  
-	},
-	
-	{
-		"camp":"Phoenix Camp NYC",
-		"tech":"phoenix",
-		"date":"2016-07-17",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Building & Deploying a Real Suite of OTP Apps",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>An examination of Phoenix, OTP, Umbrellas, and more in Elixir in Phoenix from 0 to deployment. Recently we had to build a large suite of services for a client and this examines the net wins on both the engineering and business sides of the equation; diving into architecting and building OTP apps, Phoenix, Ecto, and deploying it all into the real world.</p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Bobby",
-				  "nameLast":"Grayson",
-				  "photo":"speaker-bobby-grayson.jpg",
-				  "linkedin":"https://www.linkedin.com/in/robert-grayson-92506872",
-				  "twitter":"https://twitter.com/yburyug",
-				  "github":"https://github.com/ybur-yug",
-				  "facebook":"",
-				  "website":"",
-				  "openSourceRole":"",
-				  "organization":"CometaWorks",
-				  "role":"Software Engineer - Backend, Systems, API, ETL",
-				  "bio":"Bobby is a wannabe comic, nomad, and sailor living in San Juan, Puerto Rico building cool things in Elixir, Ruby, Phoenix, and Ember.js."
-        }
-      ]
-    }  
-	},
-	
-	{
-		"camp":"Phoenix Camp NYC",
-		"tech":"phoenix",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Elixir Retrospective: 18 months and counting",
-		"sessionSubTitle":"",
-		"sessionSummary":"In this retrospective, we'll explore how Bleacher Report came to adopt Elixir and how Elixir development has matured over the last year and a half.  The talk will focus on the initial technical challenges of adopting a new and young language and framework and how they were overcome. Moreover, learn how Elixir and Phoenix have increased both developer productivity and stakeholder satisfaction and why Bleacher Report has fully committed to Elixir and Phoenix.",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Ben",
-				  "nameLast":"Marx",
-				  "photo":"speaker-ben-marx.jpg",
-				  "linkedin":"https://www.linkedin.com/in/bgmarx",
-				  "twitter":"https://twitter.com/bgmarx",
-				  "github":"https://github.com/bgmarx",
-				  "facebook":"",
-				  "website":"",
-				  "openSourceRole":"",
-				  "organization":"Bleacher Report",
-				  "role":"Lead Engineer",
-				  "bio":"<p>Ben Marx is a lead engineer at Bleacher Report where he helps to lead development from Ruby and Rails to Elixir and Phoenix.</p>"
-        }
-      ]
-    }  
-	},
-	
-	{
-		"camp":"Phoenix Camp NYC",
-		"tech":"phoenix",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Umbrella Applications with Phoenix",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>The default project structure generated by Phoenix is great for getting started quickly. At some point though, your application may grow in a way which requires splitting it out into many parts.</p><p>In this talk we will look at taking an existing application that was built using the default Phoenix project structure and converting it to an umbrella application. We will try to do this in a way that is painless and keeps the project history in tact. We will investigate techniques that encourage isolation between applications and look at some ways to move large sections of code between siblings in the umbrella project.</p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Gary",
-				  "nameLast":"Rennie",
-				  "photo":"speaker-gary-rennie.jpg",
-				  "linkedin":"",
-				  "twitter":"https://twitter.com/thegazler",
-				  "github":"https://github.com/Gazler",
-				  "facebook":"",
-				  "website":"http://blog.gazler.com/",
-				  "stackoverflow":"http://stackoverflow.com/users/219743/Gazler",
-				  "openSourceRole":"Phoenix Core Team Member",
-				  "organization":"VoiceLayer",
-				  "role":"Elixir Developer",
-				  "bio":""
-        }
-      ]
-    }  
-	},
-
-	{
-		"camp":"Phoenix Camp NYC",
-		"tech":"phoenix",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Phoenix Channels - a Distributed PubSub and Presence Platform",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>Channels are a really exciting and powerful part of the Phoenix Framework. They allow us to easily add soft-realtime features to our applications. Channels are based on a simple idea - sending and receiving messages.</p><p>In this talk, we\'ll take a look under the hood and learn how to build incredibly powerful, event driven systems with Phoenix Channels. We\'ll also look at how Phoenix makes it easier to track presence in a distributed system.</p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Sonny",
-				  "nameLast":"Scroggin",
-				  "photo":"speaker-sonny-scroggin.jpg",
-				  "linkedin":"https://www.linkedin.com/in/scrogson",
-				  "twitter":"https://twitter.com/scrogson",
-				  "github":"https://github.com/scrogson",
-				  "facebook":"",
-				  "website":"http://scrogg.in/",
-				  "stackoverflow":"",
-				  "openSourceRole":"Creator of Hedwig IM, and Core Team Member for Phoenix Framework & ueberauth",
-				  "organization":"IBM",
-				  "role":"Senior Software Engineer",
-				  "bio":""
-        }
-      ]
-    }  
-	},
-
-
-	{
-		"camp":"Phoenix Camp NYC",
-		"tech":"phoenix",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Building Voice Enabled Applications in Phoenix",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>Voice enabled applications are going mainstream and are changing how we interact with devices. Amazon lead the way with Amazon Alexa but Google has announced Google Home and there are rumors that Apple will follow suit. On this talk we will describe the main concepts behind voice enabled applications and how to build Alexa skills in Phoenix. We will build an application from scratch and interact with it using voice.</p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Gabi",
-				  "nameLast":"Zuniga",
-				  "photo":"speaker-gabi-zuniga.jpg",
-				  "linkedin":"",
-				  "twitter":"https://twitter.com/gabiz",
-				  "github":"https://github.com/gabiz",
-				  "facebook":"",
-				  "website":"",
-				  "stackoverflow":"http://stackoverflow.com/users/219743/Gazler",
-				  "openSourceRole":"",
-				  "organization":"VoiceLayer",
-				  "role":"CTO",
-				  "bio":"Gabi works as CTO at VoiceLayer. He has been developing and managing software development for over 15 years in a wide variety of fields, including multimedia, networking, web, and mobile (iOS and Android). Gabi is passionate about learning new technologies. He enjoys innovating from early startup stages and contributed to the success of Kealia, Pacific Broadband and Chromatic Research, which were acquired by Sun Microsystems, Juniper Networks and ATI, respectively. Previously Gabi led the development of the first software based video decoders at IBM's T.J. Watson Research Center."
-        }
-      ]
-    }  
-	},
 
 
 
