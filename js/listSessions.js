@@ -45,6 +45,38 @@
       ]
     }  
 	},
+		  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"9:00",
+		"timeStop":"9:15",
+		"sessionTitle":"Introduction",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Introducing AI Camp, Opencamps.org and the organizers.  What's next?  Advanced Intelligence: Thinking outside human centric intelligence + Interdisciplinary Learning</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+
+ 				  "nameFirst":"Christie",
+				  "nameLast":"Ewen",
+				  "photo":"",
+				  "linkedin":"https://www.linkedin.com/in/ewenchristie",
+				  "twitter":"https://twitter.com/ewenchristie",
+				  "github":"https://github.com/christieewen",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"Organizer",
+				  "organization":"Vitarch",
+				  "role":"Founder",
+				  "bio":"<p>Christie is an Interdisciplinary Scientist and Technology Entrepreneur.</p>",
+        }
+      ]
+    }  
+	},
     {
 		"camp":"AI Camp",
 		"tech":"ai",
