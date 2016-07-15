@@ -2557,7 +2557,7 @@
 	{
 		"camp":"Elixir Camp NYC",
 		"tech":"elixir",
-		"date":"2016-07-16",
+		"date":"2016-07-17",
 		"timeStart":"13:00",
 		"timeStop":"13:50pm",
 		"room":"Conference Room 12",
