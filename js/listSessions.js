@@ -201,6 +201,78 @@
       ]
     }  
 	},
+ {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"10:45",
+		"timeStop":"11:20",
+		"sessionTitle":"The Convenience Economy and AI",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Let’s change the world. Together. The world is small and fast, all courtesy of technology. The Convenience Economy- real time digital matching of shared local resources will help the world become more efficient and neighborly. See how digital \"trust\", \"business cards\", \"contextual keywords\" and \"payments\" with AI will soon match neighbor to neighbor much more efficiently resulting in better wealth distribution, better use of resources and an overall improvement in your everyday life. Warning: This is an interactive demonstrations: you will meet your neighbor. </p>",
+		"sessionType":"Session",
+		"sessionSlides":"https://www.slideshare.net/secret/aGVqp3DzTHmBPm",
+		"sessionVideo":"",
+    "speakers": {
+
+      "speaker": [
+
+			  {
+ 				  "nameFirst":"Eric",
+				  "nameLast":"Schwertzel",
+				  "photo":"speaker-eric-schwertzel.jpg",
+				  "linkedin":"https://www.linkedin.com/in/digitalentertainment",
+				  "twitter":"https://twitter.com/IQIDNYC",
+				  "github":"",
+				  "facebook":"",
+				  "website":"https://iqid.com",
+				  "openSourceRole":"",
+				  "organization":"Founder of IQID",
+				  "role":"Director",
+				  "bio":"<p></p>",
+        }
+
+      ]
+
+    }  
+	},
+  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"11:25",
+		"timeStop":"12:15",
+		"sessionTitle":"How big a threat is artificial intelligence to humanity?",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>The biggest threat to humanity in the 20th Century was arguably the possibility of Nuclear war. It was largely thanks to extensive diplomacy at the United Nations that the Treaty on the Non-Proliferation of Nuclear Weapons came into force in 1970.  The risk to mankind from artificial intelligence needs a similar unilateral conversation to happen, and to happen widely.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+
+      "speaker": [
+
+			  {
+
+ 				  "nameFirst":"Oliver",
+				  "nameLast":"Christie",
+				  "photo":"speaker-oliver-christie.jpg",
+				  "linkedin":"https://www.linkedin.com/in/oliverchristie",
+				  "twitter":"https://twitter.com/OliverChristie",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Foxy Machine",
+				  "role":"Artificial Intelligence Strategist",
+				  "bio":"",
+        }
+
+      ]
+
+    }  
+
+	},
 	 {
 
 		"camp":"AI Camp",
