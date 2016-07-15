@@ -3025,9 +3025,9 @@
 		"timeStart":"11:15",
 		"timeStop":"12:00",
 		"room":"Conference Room E",
-		"sessionTitle":"",
+		"sessionTitle":"Getting into Embedded Elixir",
 		"sessionSubTitle":"",
-		"sessionSummary":"",
+		"sessionSummary":"<p>With its roots in Erlang, the Elixir programming language brings some interesting features to embedded systems development. Getting started, though, it's not obvious what aspects of a project are best suited to Elixir and which parts belong in a lower level language. Beyond that, Elixir provides several ways to integrate with the operating system and low level code and the tradeoffs aren't obvious. This talk aims to clarify the Elixir runtime environment from an embedded systems point of view. Additionally, benchmarks of various hardware integration strategies are discussed.</p>",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -3045,7 +3045,7 @@
 				  "openSourceRole":"Nerves Project Core Team Member",
 				  "organization":"Troodon Software LLC",
 				  "role":"Principal",
-				  "bio":""
+				  "bio":"Frank designs embedded software for products in many industries including medical, consumer, telecommunications and defense. Frustrated with repeatedly implementing parts of OTP, he started the Nerves project to make it easier to use Erlang and Elixir in embedded projects. He is an active contributor to open-source. Some of his other projects are Elixir/ALE, nerves_uart, fwup, and erlinit."
         }
       ]
     }  
@@ -3058,9 +3058,9 @@
 		"timeStart":"09:45",
 		"timeStop":"10:30",
 		"room":"Conference Room E",
-		"sessionTitle":"",
+		"sessionTitle":"Building and Deploying Nerves",
 		"sessionSubTitle":"",
-		"sessionSummary":"",
+		"sessionSummary":"<p>Nerves lets you craft and deploy bulletproof embedded software in the Elixir programming language. This talk will feature an introduction to why Elixir is a great fit for producing embedded devices and how to get started using the Nerves build tools and frameworks. Join us for a live demos of setting up your host environment, deploying code to Raspberry Pi / BeagleBone black, connecting to networks and more.</p>",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -3078,7 +3078,7 @@
 				  "openSourceRole":"Nerves Project Core Team Member",
 				  "organization":"Metasphere",
 				  "role":"Founder",
-				  "bio":""
+				  "bio":"Over the years, Justin has worked on a plethora of embedded projects from iPhone motorcycle starters to advanced brewing and distilling equipment. Recently, Justin founded Metasphere, an embedded software company primarily focused on building Nerves."
         }
       ]
     }  
@@ -3124,9 +3124,9 @@
 		"timeStart":"13:00",
 		"timeStop":"End of Day",
 		"room":"Conference Room E",
-		"sessionTitle":"Nerves Workshop",
+		"sessionTitle":"Nerves Hardware Hacking",
 		"sessionSubTitle":"",
-		"sessionSummary":"",
+		"sessionSummary":"Come check how to get up and running with Nerves on your hardware or on a selection of ours.",
 		"sessionType":"workshop",
 		"sessionSlides":"",
 		"sessionVideo":"",
