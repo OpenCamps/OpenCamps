@@ -69,7 +69,7 @@
 				  "github":"https://github.com/christieewen",
 				  "facebook":"",
 				  "website":"",
-				  "openSourceRole":"Organizer",
+				  "openSourceRole":"",
 				  "organization":"Vitarch",
 				  "role":"Founder",
 				  "bio":"<p>Christie is an Interdisciplinary Scientist and Technology Entrepreneur.</p>",
