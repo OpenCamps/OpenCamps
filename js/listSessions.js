@@ -3308,7 +3308,7 @@ getSessions([
 			  {
  				  "nameFirst":"Daiyan",
 				  "nameLast":"Alamgir",
-				  "photo":"https://media.licdn.com/media/p/4/000/184/07d/323f7a0.jpg",
+				  "photo":"",
 				  "twitter":"https://twitter.com/dalamgir",
 				  "github":"https://github.com/alamgird",
 				  "facebook":"",
