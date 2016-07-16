@@ -3164,8 +3164,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"10:00",
-		"timeStop":"11:00",
+		"timeStart":"",
+		"timeStop":"",
 		"sessionTitle":"From Java to Node, at eBay",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>At eBay the homepage receives 70+ million hits a day. Historically, we served all that traffic through Java, but are now migrating to Node. In this talk we\'ll discuss what we\'re migrating, how we\'re doing it and why.</p><p>We\'ll cover why Node.js is so alluring, in addition to some of the specific packages that we think of as killer apps. This talk should be interesting for anyone who enjoys discussions of web technology capable of operating at massive scale.</p><p><em>Abstract</em></p><p>Node is one of the world’s fastest growing and most exciting platforms. It now leads Github in number of contributions, and its popularity and feature list only continue to grow.</p><p>When we realized it was time to update the Homepage at eBay to something more modern, Node was a perfect fit. We knew the new Homepage would need to be faster, require reusable components, and show things like recommendation feeds, in addition to trending and popular items.</p><p>Node brings a giant ecosystem that is inherently open source with npm; which, increases collaboration and code sharing. We\'re able to learn and develop more quickly, including server startup in seconds vs minutes. Node is incredibly fast with handling a large number requests, and uses less resources than Java making it more easily scaled horizontally. It’s 2016 and this move to a more modern platform helps not only with all the reasons above, but also with developer satisfaction and not to mention, recruiting.</p> <p>To make this move, we are utilizing Marko and Marko Widgets for our server side and client side rendering, as well as Lasso for managing and bundling our assets. We are also making the jump to ES6, natively on the backend and transpiled for the client side.</p> <p>This talk will include specific issues that were solved and how, the tooling and technologies used, and what\'s next. This talk is aimed at anyone who has built/maintained a webapp, with focuses in Java/Node.</p><p><ul><li>Javascript</li><li>Node/li><li>Express</li><li>Marko</li><li>Lasso</li><li>ES6</li><li>Java</li><li>Spring</li></ul></p>",
@@ -3196,8 +3196,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"1:30",
-		"timeStop":"2:30",
+		"timeStart":"",
+		"timeStop":"",
 		"sessionTitle":"Using StrongLoop to build an API application",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Adding User Management, an API layer, and custom data models to a Node.js application with StrongLoop.</p>",
@@ -3228,8 +3228,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"3:00",
-		"timeStop":"4:00",
+		"timeStart":"",
+		"timeStop":"",
 		"sessionTitle":"The Node Version of Pattern Lab ",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Pattern Lab has established itself as one of the best-known tools for bringing designs to development. Nonetheless, its own description of itself is enigmatic at best:</p><p><em>\"Pattern Lab is a collection of tools to help you create atomic design systems.\"</em></p><p>This presentation will aim to bring some meaning to what Pattern Lab and Atomic Design actually are and what they are useful for. We will also explore advanced Pattern Lab features for power users. Most of the presentation will apply to both the PHP and Node versions of Pattern Lab. However, we will also look at why the Node version is useful, even if it mostly replicates the PHP version.</p>",
@@ -3256,32 +3256,33 @@ getSessions([
     }  
 	},
 
-	{ 
+	{
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"11:15",
-		"timeStop":"12:15",
-		"sessionTitle":" Introduction to GraphQL on Node",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"30 Days of Node: A Love Story ",
 		"sessionSubTitle":"",		
-		"sessionSummary":"<p>Introduction to GraphQL and implementing a GraphQL server using Node.</p>",
-		"sessionType":"Session",
+		"sessionSummary":"<p>Imagine-the one and only love story. A wonderful weaving of the experience of starting and using Node for 30days set against the backdrop of dating as a method for exploration and commitment. Will expand on the stages of understanding NodeJS (and its corresponding projects) as we \"see each across the room\", \"get to know each other\", \"start casually dating\", and \"commit to a serious relationship\".</p>",
+		"sessionType":"Lightning Talk",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
       "speaker": [
 			  {
- 				  "nameFirst":"Daiyan",
-				  "nameLast":"Alamgir",
-				  "photo":"https://media.licdn.com/media/p/4/000/184/07d/323f7a0.jpg",
-				  "twitter":"https://twitter.com/dalamgir",
-				  "github":"https://github.com/alamgird",
+ 				  "nameFirst":"Elizabeth",
+				  "nameLast":"Ferrao",
+				  "photo":"speaker-elizabeth-ferrao.jpg",
+				  "linkedin":"https://www.linkedin.com/in/elizabethferrao",
+				  "twitter":"https://twitter.com/MusingMurmurs",
+				  "github":"https://github.com/eferrao",
 				  "facebook":"",
 				  "website":"",
-				  "openSourceRole":"",
-				  "organization":"Morgan Stanley",
+				  "openSourceRole":"Director at Women Who Code NYC",
+				  "organization":"",
 				  "role":"",
-				  "bio":""
+				  "bio":"Elizabeth Ferrao is a front-end engineer specializing in website creation and building web applications. She enjoys building engineering applications and communities from the ground up, whilst iterating for the maximum efficiency solution. She’s currently obsessed with Alec Ross’ \"Industries of the Future\" and is happy to talk to anyone with strong opinions re: the pervasiveness of tech."
         }
       ]
     }  
@@ -3291,8 +3292,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"4:00",
-		"timeStop":"5:00",
+		"timeStart":"",
+		"timeStop":"",
 		"sessionTitle":"Node Loopback: Forget Your Backend and Spend Time Having Fun on the Front!",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Loop back is a new JS framework for constructing a REST api from any of the most common types of databases, making front end application development easier than ever. See how this is especially useful for single page apps, IoT devices, mobile apps, and distributed systems. Let Loopback handle your data so you can have fun on the front end!</p>",
@@ -3319,29 +3320,6 @@ getSessions([
     }  
 	},
 
-	{
-		"camp":"Node Camp",
-		"tech":"node",
-		"date":"2016-07-16",
-		"timeStart":"5:00",
-		"timeStop":"6:00",
-		"sessionTitle":"Panel Discussion (All presenters)",
-		"sessionSubTitle":"",		
-		"sessionSummary":"<p>
-What's Ahead for Node? An open discussion on the state of node.js development and what's coming next. </p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
-          "nameFirst":"All",
-				  "nameLast":"Presenters",
-				  "bio":"All presenters at Node Camp are invited to join a closing panel discussion talking open questions from the audience."
-        }
-      ]
-    }  
-	},
 	
 
 
