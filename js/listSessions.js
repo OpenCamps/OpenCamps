@@ -3262,8 +3262,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"4:00",
+		"timeStop":"5:00",
 		"sessionTitle":"Node Loopback: Forget Your Backend and Spend Time Having Fun on the Front!",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Loop back is a new JS framework for constructing a REST api from any of the most common types of databases, making front end application development easier than ever. See how this is especially useful for single page apps, IoT devices, mobile apps, and distributed systems. Let Loopback handle your data so you can have fun on the front end!</p>",
@@ -3291,7 +3291,36 @@ getSessions([
 	},
 
 	
-
+	{ 
+		"camp":"Node Camp",
+		"tech":"node",
+		"date":"2016-07-16",
+		"timeStart":"11:15",
+		"timeStop":"12:15",
+		"sessionTitle":" Introduction to GraphQL on Node",
+		"sessionSubTitle":"",		
+		"sessionSummary":"<p>Introduction to GraphQL and implementing a GraphQL server using Node.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Daiyan",
+				  "nameLast":"Alamgir",
+				  "photo":"https://media.licdn.com/media/p/4/000/184/07d/323f7a0.jpg",
+				  "twitter":"https://twitter.com/dalamgir",
+				  "github":"https://github.com/alamgird",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Morgan Stanley",
+				  "role":"",
+				  "bio":""
+        }
+      ]
+    }  
+	},
 
 
 
