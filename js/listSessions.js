@@ -3335,15 +3335,6 @@ What's Ahead for Node? An open discussion on the state of node.js development an
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
-          "nameFirst":"All",
-				  "nameLast":"Presenters",
-				  "bio":"All presenters at Node Camp are invited to join a closing panel discussion talking open questions from the audience."
-        }
-      ]
-    }  
 	},
 
 
