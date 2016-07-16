@@ -1,4 +1,4 @@
-getSessions([
+﻿getSessions([
 
   // This JSON file is used to inclue all sessions to be presented at Open Camps events
   //
@@ -3251,40 +3251,6 @@ getSessions([
 				  "organization":"Major League Baseball Advanced Media",
 				  "role":"Software Engineer",
 				  "bio":"I have been a full-stack developer for 15+ years at Yale Medical School, Microsoft, Reed Elsevier, GTNexus, HP. Currently I am a developer evangelist for IBM Cloud."
-        }
-      ]
-    }  
-	},
-
-
-
-	{
-		"camp":"Node Camp",
-		"tech":"node",
-		"date":"2016-07-16",
-		"timeStart":"16:00",
-		"timeStop":"17:00",
-		"sessionTitle":"Node Loopback: Forget Your Backend and Spend Time Having Fun on the Front!",
-		"sessionSubTitle":"",		
-		"sessionSummary":"<p>Loop back is a new JS framework for constructing a REST api from any of the most common types of databases, making front end application development easier than ever. See how this is especially useful for single page apps, IoT devices, mobile apps, and distributed systems. Let Loopback handle your data so you can have fun on the front end!</p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
-          "nameFirst":"Lerenzo",
-				  "nameLast":"Malcom",
-				  "photo":"speaker-lerenzo-malcom.jpg",
-				  "linkedin":"https://www.linkedin.com/in/lerenzo-tolbert-malcom-87669612",
-				  "twitter":"https://twitter.com/lerenzom",
-				  "github":"https://github.com/lmalcom",
-				  "facebook":"https://www.facebook.com/lerenzo.tolbertmalcom",
-				  "website":"",
-				  "openSourceRole":"",
-				  "organization":"Recombine Genomics",
-				  "role":"Software Engineer",
-				  "bio":"Lerenzo is a software engineer at Recombine Genomics in New York City. With several years of experience working in full stack JavaScript, and more recent experience with Scala and Ruby on Rails, he has worked on problems in various areas both in front end and back end on applications ranging from interactive animation to data visualization."
         }
       ]
     }  
