@@ -3274,7 +3274,7 @@
 			  {
  				  "nameFirst":"Daiyan",
 				  "nameLast":"Alamgir",
-				  "photo":"",
+				  "photo":"default.png",
 				  "twitter":"https://twitter.com/dalamgir",
 				  "github":"https://github.com/alamgird",
 				  "facebook":"",
@@ -3287,23 +3287,6 @@
       ]
     }  
 	},
-
-	{
-		"camp":"Node Camp",
-		"tech":"node",
-		"date":"2016-07-16",
-		"timeStart":"17:00",
-		"timeStop":"18:00",
-		"sessionTitle":"Panel Discussion (All presenters)",
-		"sessionSubTitle":"",		
-		"sessionSummary":"<p>
-What's Ahead for Node? An open discussion on the state of node.js development and what's coming next. </p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-	},
-
-
 
 
 
