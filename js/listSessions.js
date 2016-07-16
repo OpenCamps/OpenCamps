@@ -3196,8 +3196,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"1:30",
+		"timeStop":"2:30",
 		"sessionTitle":"Using StrongLoop to build an API application",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Adding User Management, an API layer, and custom data models to a Node.js application with StrongLoop.</p>",
@@ -3228,8 +3228,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"3:00",
+		"timeStop":"4:00",
 		"sessionTitle":"The Node Version of Pattern Lab ",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Pattern Lab has established itself as one of the best-known tools for bringing designs to development. Nonetheless, its own description of itself is enigmatic at best:</p><p><em>\"Pattern Lab is a collection of tools to help you create atomic design systems.\"</em></p><p>This presentation will aim to bring some meaning to what Pattern Lab and Atomic Design actually are and what they are useful for. We will also explore advanced Pattern Lab features for power users. Most of the presentation will apply to both the PHP and Node versions of Pattern Lab. However, we will also look at why the Node version is useful, even if it mostly replicates the PHP version.</p>",
@@ -3256,37 +3256,7 @@ getSessions([
     }  
 	},
 
-	{
-		"camp":"Node Camp",
-		"tech":"node",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"30 Days of Node: A Love Story ",
-		"sessionSubTitle":"",		
-		"sessionSummary":"<p>Imagine-the one and only love story. A wonderful weaving of the experience of starting and using Node for 30days set against the backdrop of dating as a method for exploration and commitment. Will expand on the stages of understanding NodeJS (and its corresponding projects) as we \"see each across the room\", \"get to know each other\", \"start casually dating\", and \"commit to a serious relationship\".</p>",
-		"sessionType":"Lightning Talk",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Elizabeth",
-				  "nameLast":"Ferrao",
-				  "photo":"speaker-elizabeth-ferrao.jpg",
-				  "linkedin":"https://www.linkedin.com/in/elizabethferrao",
-				  "twitter":"https://twitter.com/MusingMurmurs",
-				  "github":"https://github.com/eferrao",
-				  "facebook":"",
-				  "website":"",
-				  "openSourceRole":"Director at Women Who Code NYC",
-				  "organization":"",
-				  "role":"",
-				  "bio":"Elizabeth Ferrao is a front-end engineer specializing in website creation and building web applications. She enjoys building engineering applications and communities from the ground up, whilst iterating for the maximum efficiency solution. She’s currently obsessed with Alec Ross’ \"Industries of the Future\" and is happy to talk to anyone with strong opinions re: the pervasiveness of tech."
-        }
-      ]
-    }  
-	},
+
 
 	{
 		"camp":"Node Camp",
