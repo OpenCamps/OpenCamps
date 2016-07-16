@@ -3196,8 +3196,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"1:30",
-		"timeStop":"2:30",
+		"timeStart":"13:30",
+		"timeStop":"14:30",
 		"sessionTitle":"Using StrongLoop to build an API application",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Adding User Management, an API layer, and custom data models to a Node.js application with StrongLoop.</p>",
@@ -3228,8 +3228,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"3:00",
-		"timeStop":"4:00",
+		"timeStart":"15:00",
+		"timeStop":"16:00",
 		"sessionTitle":"The Node Version of Pattern Lab ",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Pattern Lab has established itself as one of the best-known tools for bringing designs to development. Nonetheless, its own description of itself is enigmatic at best:</p><p><em>\"Pattern Lab is a collection of tools to help you create atomic design systems.\"</em></p><p>This presentation will aim to bring some meaning to what Pattern Lab and Atomic Design actually are and what they are useful for. We will also explore advanced Pattern Lab features for power users. Most of the presentation will apply to both the PHP and Node versions of Pattern Lab. However, we will also look at why the Node version is useful, even if it mostly replicates the PHP version.</p>",
@@ -3262,8 +3262,8 @@ getSessions([
 		"camp":"Node Camp",
 		"tech":"node",
 		"date":"2016-07-16",
-		"timeStart":"4:00",
-		"timeStop":"5:00",
+		"timeStart":"16:00",
+		"timeStop":"17:00",
 		"sessionTitle":"Node Loopback: Forget Your Backend and Spend Time Having Fun on the Front!",
 		"sessionSubTitle":"",		
 		"sessionSummary":"<p>Loop back is a new JS framework for constructing a REST api from any of the most common types of databases, making front end application development easier than ever. See how this is especially useful for single page apps, IoT devices, mobile apps, and distributed systems. Let Loopback handle your data so you can have fun on the front end!</p>",
@@ -3321,6 +3321,31 @@ getSessions([
       ]
     }  
 	},
+
+	{
+		"camp":"Node Camp",
+		"tech":"node",
+		"date":"2016-07-16",
+		"timeStart":"17:00",
+		"timeStop":"18:00",
+		"sessionTitle":"Panel Discussion (All presenters)",
+		"sessionSubTitle":"",		
+		"sessionSummary":"<p>
+What's Ahead for Node? An open discussion on the state of node.js development and what's coming next. </p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+          "nameFirst":"All",
+				  "nameLast":"Presenters",
+				  "bio":"All presenters at Node Camp are invited to join a closing panel discussion talking open questions from the audience."
+        }
+      ]
+    }  
+	},
+
 
 
 
