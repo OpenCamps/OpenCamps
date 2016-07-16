@@ -3289,6 +3289,38 @@
 	},
 
 
+	{ 
+		"camp":"Node Camp",
+		"tech":"node",
+		"date":"2016-07-16",
+		"timeStart":"14:30",
+		"timeStop":"15:30",
+		"sessionTitle":"Lunch",
+		"sessionSubTitle":"",		
+		"sessionSummary":"",
+		"sessionType":"Logistics",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+
 
 
   // PY GOTHAM
