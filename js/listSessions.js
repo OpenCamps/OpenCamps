@@ -3308,7 +3308,7 @@ getSessions([
 			  {
  				  "nameFirst":"Daiyan",
 				  "nameLast":"Alamgir",
-				  "photo":"",
+				  "photo":"default.png",
 				  "twitter":"https://twitter.com/dalamgir",
 				  "github":"https://github.com/alamgird",
 				  "facebook":"",
