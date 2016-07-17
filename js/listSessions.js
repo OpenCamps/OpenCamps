@@ -2593,7 +2593,7 @@
 		"date":"2016-07-17",
 		"timeStart":"10:30",
 		"timeStop":"12:30",
-		"room":"",
+		"room":"Conference Room A",
 		"sessionTitle":"Sun Morning Workshop - Rails to Elixir/Phoenix",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>A workshop by Ben Marx, from Bleacher Report, on migrating from Rails to Elixir/Phoenix.</p>",
