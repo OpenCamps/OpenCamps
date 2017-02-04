@@ -1,20 +1,10 @@
 /* Open Camps - Sessions */
 
-/* SESSIONS */
-
 #sessions {
   width: 100%;
+	background-color: #e0e0e0;
 	text-align: center;
-	background-color: #f2f2f2;
 }
-
-#sessions h2.sessions {
-	font-weight: bold;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-}
-
-
-/* SESSION */
 
 .session {
 	width: 480px;
@@ -28,21 +18,15 @@
 }
 
 .session .session-inner {
-	width: 500px;
+	width: 480px;
 	height: auto;
 	display: inline-block;
 	vertical-align: top;
-	border: 1px solid #d0d0d0;
+	border: 1px solid gray;
 	margin: 1rem 10px;
 	padding: 0;
 	background-color: white;
 	text-align: left;
-}
-
-.session .links a,
-.session .links p {
-	color: black;
-	border-bottom: 1px dotted black;
 }
 
 .session .icon {
@@ -50,37 +34,14 @@
 }
 
 
-
-
-/* SCHEDULING */
-
-.session .scheduling {
-	font-size: .8rem;
-	position: relative;
-	display: block;
-	margin-bottom: .75rem;
-}
-
-.session .scheduling .slot {
-	text-align: right;
-	font-size: .75rem;
-	padding: .5rem .5rem .5rem 1rem;
-	left: 0;
-	position: absolute;
-	color: gray;
-	display: none;
-}
-
-.session .scheduling .event {
-	color: white;
-	font-size: .75rem;
-	right: 0;
-	position: absolute;
-	padding: .35rem .5rem;
-}
-
-.session.Keynote .scheduling .event {
+.session h4 {
 	font-weight: bold;
+	font-size: 1.25rem;
+	line-height: 1.6rem;
+	margin-top: .25rem;
+	padding-left: 1rem;
+	margin-bottom: .5rem;
+	color: black;
 }
 
 .session .camp {
@@ -89,118 +50,36 @@
 	padding: .35rem;
 }
 
-
-
-
-/* PRESENTATION */
-
-.session .presentation {
-	padding: 1rem;
+.session .slot {
+	text-align: right;
+	font-size: .85em;
+	padding: .35rem;
 }
 
-.session .title h4 {
-	font-weight: bold;
-	font-size: 1rem;
-	line-height: 1.6rem;
-	color: black;
-	margin: .5rem 0;
-}
-
-.session .summary .summary-wrapper-collapsed {
-	height: 110px;
-	overflow: hidden;
-	display: block;
-	clear: both;
-
-}
-
-.session .summary .summary-wrapper-open {
-	height: auto;
-	overflow: hidden;
-	display: block;
-	clear: both;
-}
-
-
-.session .summary-faded {
-	height: 100px;
-	display: block;
-	width: 100%;
-  background-image: linear-gradient(to bottom, white, transparent);
-	background: -o-linear-gradient(0deg, white, transparent); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(0deg, white, transparent); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(0deg, white, transparent);
-	background: -webkit-linear-gradient(0deg, white, transparent); /* For Safari 5.1 to 6.0 */
-  background: -webkit-linear-gradient(bottom,white,white 0%,rgba(255,255,255,0));
-	position: relative;
-	top: -100px;
-	margin: 0 0 -100px;
-  padding: 0;
-}
-
-.session .summary-open {
-  display: none;
-}
-
-
-.session .summary p,
-.session .summary li {
+.session p.summary {
 	font-weight: 300;
-	text-align: left;
-	line-height: 1.6rem;
-	font-size: .85rem;
-	color: #404040;
-	margin: .5rem;
-	padding: 0;
-}
-
-.session .summary p.subtitle {
-	font-style: italic;
-}
-
-.session .summary p a {
-	color: #000;
-	border-bottom: 1px dotted black;
-}
-
-.sessions p.intro {
+	padding-right: 1rem;
 	padding-left: 1rem;
-	
+	text-align: left;
+	line-height: 1.6em;
+	font-size: .95rem;
+	margin-top: 0;
+	color: #404040;
 }
 
-.session .links {
+
+.session inner {
+}
+
+.session img {
+	width: 100%;
+	height: auto;
 	display: block;
-	margin-top: .35rem;
-	text-align: left;
+  vertical-align:top;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
 }
-
-.session .links a.color {
-	color: gray;
-}
-
-.session .links a {
-	text-decoration: none;
-	border-bottom-style: none;
-	font-size: .8rem;
-	display: inline-block;
-	text-align: left;
-	width: auto;
-}  
-
-.session .links .view-slides {
-	padding-left: .5em;
-}
-
-.session links . {
-	
-}
-
-.session links .summary.toggle {
-	
-}
-
-
-/* SPEAKERS */
 
 .session .speakers,
 .session .speaker,
@@ -208,11 +87,6 @@
 	margin: 0;
 	padding: 0;
 }
-
-.session .speakers {
-	margin-top: .5rem;
-}
-
 
 .speaker .inner {
 	padding: 0;
@@ -222,6 +96,7 @@
 .speaker .links {
 	text-align: left;
 }
+
 
 .speaker .link {
 	display: inline-block;
@@ -234,101 +109,42 @@
 	font-size: 1.2585em;
 }
 
-.session img {
-	width: 100%;
-	height: auto;
-	display: block;
-  vertical-align:top;
-	margin: 0;
-	padding: 0;
-	line-height: 0;
-	border-top: 1px solid #d0d0d0;
-	border-right: 1px solid #d0d0d0;
-}
 
 .speaker .photo {
 	display: inline-block;
-	width: 140px;
+	width: 120px;
 	margin-right: 1rem;
 }
 
 .speaker .details {
   vertical-align: top;
-	font-size: .7rem;
+
+	background-color: white;
+	font-size: .8em;
+	border-top: 1px solid silver;
 	padding-top: 0;
 	display: inline-block;
 	max-width: 300px;
-	_border-top: 1px solid silver;
 }
 
 .speaker h5.speaker-name {
 	font-size: .95rem;
 	color: black;
 	text-align: left;
-	padding-top: .25rem;
+	padding-top: .5rem;
 	margin-bottom: .25rem;
-	margin-top: 0;
-}
-
-.speaker .open-source-role {
-	font-size: .75rem;
-	margin-bottom: .5rem;
-	color: black;
+	margin-top: .25rem;
 }
 
 .speaker .organization {
 	margin-bottom: .25rem;
-	color: black;
+	color: gray;
 }
 
 .speaker .role {
 	margin-bottom: .25rem;
 	color: gray;
-	font-style: italic;
 }
-
-.speaker .bio {
-	padding-bottom: .25rem;
-}
-
-.speaker .bio,
-.speaker .bio p,
-.speaker .bio a {
-	font-weight: 300;
-	text-align: left;
-	line-height: 1.5rem;
-	font-size: .8rem;
-	color: #404040;
-	padding: 0 0 .25rem;
-	margin: .25rem 0 0;
-	text-decoration: none;
-}
-
-.session .speaker .bio-wrapper-collapsed {
-	height: 0px;
-	overflow: hidden;
-	display: block;
-	clear: both;
-
-}
-
-.session .speaker .bio-wrapper-open {
-	height: auto;
-	overflow: hidden;
-	display: block;
-	clear: both;
-	margin: .5rem .5rem 0 0;
-}
-
-
-.speaker .bio-closed {
-	height: 0px!important;
-}
-
-
-
-
-
 
 body.sessoins h2 {
 	font: 2em/1em "FuturaT", sans-serif;
@@ -345,15 +161,14 @@ body.sessoins h2 {
   letter-spacing: -.035em;
 	margin-top: 0;
 	padding-left: 1rem;
-	padding-right: 1rem;
+}
+
+.sessions p.intro {
+	padding-left: 1rem;
+	
 }
 
 
-
-
-
-
-/* VIDEO */
 
 .session .video {
 	margin: 1em 0 0;
@@ -479,6 +294,11 @@ body.sessoins h2 {
 
 
 /* TEMP */
+
+.session .camp,
+.session .slot {
+	display: none;
+}
 
 
 

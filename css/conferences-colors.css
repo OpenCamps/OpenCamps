@@ -1,612 +1,186 @@
 /* CONFERENCES - Colors */
 
-
-
-
-
-/* AGENCY */
-.conference.agency,
-.conference.agency a.button,
-.conference.agency .session .scheduling .event {
-  background: #be3900;
+.conference .agency {
+  background-color: #0d66f2;
 }
 
-.conference.agency .session-inner {
-	border-top: 2px solid #be3900;
+.conference .ai {
+  background-color: #7B93A5;
 }
 
-.conference.agency .slot,
-.conference.agency .container.light h2,
-.conference.agency .links a.color:hover {
-  color: #be3900;	
+.conference .android {
+  background-color: #A4C63A;
 }
 
-
-
-
-
-
-/* AI */
-.conference.ai,
-.conference.ai a.button,
-.conference.ai .session .scheduling .event {
-  background: #7B93A5;
+.conference .angular {
+  background-color: #DD1B16;
 }
 
-.conference.ai .session-inner {
-	border-top: 2px solid #7B93A5;
+.conference .apps {
+	background-color: teal;
 }
 
-.conference.ai .slot,
-.conference.ai .container.light h2,
-.conference.ai .links a.color:hover {
-  color: #7B93A5;	
+.conference .capital {
+	background-color: #044223;
 }
 
-
-
-
-
-/* ANDROID */
-.conference.android,
-.conference.android a.button,
-.conference.android .session .scheduling .event {
-  background: #A4C63A;
+.conference .community {
+  background-color: #3FA652;
 }
 
-.conference.android .session-inner {
-	border-top: 2px solid #A4C63A;
+.conference .commerce {
+  background-color: #10c46f;
 }
 
-.conference.android .slot,
-.conference.android .container.light h2,
-.conference.android .links a.color:hover {
-  color: #A4C63A;	
+.conference .h4h {
+  background-color: #00dc00;
 }
 
-
-
-
-
-
-/* ANGULAR */
-.conference.angular,
-.conference.angular a.button,
-.conference.angular .session .scheduling .event {
-  background: #DD1B16;
+.conference .dataviz {
+	background: #F89B46;
 }
 
-.conference.angular .session-inner {
-	border-top: 2px solid #DD1B16;
-}
-
-.conference.angular .slot,
-.conference.angular .container.light h2,
-.conference.angular .links a.color:hover {
-  color: #DD1B16;	
-}
-
-
-
-
-/* APPS */
-.conference.apps,
-.conference.apps a.button,
-.conference.apps .session .scheduling .event {
-  background: #008080;
-}
-
-.conference.apps .session-inner {
-	border-top: 2px solid #008080;
-}
-
-.conference.apps .slot,
-.conference.apps .container.light h2,
-.conference.apps .links a.color:hover {
-  color: #008080;	
-}
-
-
-
-
-
-
-
-/* HUMANITY */
-.conference.u4h,
-.conference.u4h a.button,
-.conference.u4h .session .scheduling .event {
-  background: #00dc00;
-}
-
-.conference.u4h .session-inner {
-	border-top: 2px solid #00dc00;
-}
-
-.conference.u4h .slot,
-.conference.u4h .container.light h2,
-.conference.u4h .links a.color:hover {
-  color: #00dc00;	
-}
-
-
-
-
-/* CIVIC */
-.conference.civic,
-.conference.civic a.button,
-.conference.civic .session .scheduling .event {
-  background: #d04e4e;
-}
-
-.conference.civic .session-inner {
-	border-top: 2px solid #d04e4e;
-}
-
-.conference.civic .slot,
-.conference.civic .container.light h2,
-.conference.civic .links a.color:hover {
-  color: #d04e4e;	
-}
-
-
-
-
-/* COMMUNITY */
-.conference.community,
-.conference.community a.button,
-.conference.community .session .scheduling .event {
-  background: #3FA652;
-}
-
-.conference.community .session-inner {
-	border-top: 2px solid #3FA652;
-}
-
-.conference.community .slot,
-.conference.community .container.light h2,
-.conference.community .links a.color:hover {
-  color: #3FA652;	
-}
-
-
-
-
-
-
-/* DATAVIZ */
-.conference.dataviz,
-.conference.dataviz a.button,
-.conference.dataviz .session .scheduling .event {
-  background: #F89B46;
-}
-
-.conference.dataviz .session-inner {
-	border-top: 2px solid #F89B46;
-}
-
-.conference.dataviz .slot,
-.conference.dataviz .container.light h2,
-.conference.dataviz .links a.color:hover {
-  color: #F89B46;	
-}
-
-
-
-
-/* DATABASE */
-.conference.database {
+.conference .database {
 	background-color: navy;
 }
 
+.conference .design {
+	background-color: #5A4A42;
+}
 
-
-
-
-/* DEVOPS */
-.conference.devops {
+.conference .devops {
 	background-color: #a06bd0;
 }
-.conference.devops,
-.conference.devops a.button,
-.conference.devops .session .scheduling .event {
-  background: #a06bd0;
+
+.conference .diversity {
+	background-color: #dc8fbc;
 }
 
-.conference.devops .session-inner {
-	border-top: 2px solid #a06bd0;
+.conference .drupal {
+  background-color: #04639d;
 }
 
-.conference.devops .slot,
-.conference.devops .container.light h2,
-.conference.devops .links a.color:hover {
-  color: #a06bd0;	
+.conference .edtech {
+  background-color: gray;
 }
 
-
-
-
-
-
-/* DRUPAL */
-.conference.drupal {
-	background: #04639d;
+.conference .elixir {
+  background-color: #4e2a8e;
 }
 
-
-/* EDTECH */
-.conference.edtech {
-	background: #6cb9e9;
-}
-.conference.edtech,
-.conference.edtech a.button,
-.session.edtech .scheduling .event {
-  background: #6cb9e9;
+.conference .ember {
+  background-color: #eee;
 }
 
-.session.edtech .session-inner {
-	border-top: 2px solid #6cb9e9;
-}
-
-.session.edtech .slot,
-.session.edtech .container.light h2,
-.session.edtech .links a.color:hover {
-  color: #6cb9e9;	
-}
-
-
-
-
-
-
-/* ELIXIR */
-.conference.elixir,
-.conference.elixir a.button,
-.session.elixir .scheduling .event {
-  background: #4e2a8e;
-}
-
-.session.elixir .session-inner {
-	border-top: 2px solid #4e2a8e;
-}
-
-.session.elixir .slot,
-.session.elixir .container.light h2,
-.session.elixir .links a.color:hover {
-  color: #4e2a8e;	
-}
-
-
-
-
-/* ERLANG */
-.conference.erlang,
-.conference.erlang a.button,
-.session.erlang .scheduling .event {
+.conference .erlang {
   background: #9A0000;
 }
 
-.session.erlang .session-inner {
-	border-top: 2px solid #9A0000;
+.conference .frontend {
+  background-color: #deb200;
 }
 
-.session.erlang .slot,
-.session.erlang .container.light h2,
-.session.erlang .links a.color:hover {
-  color: #9A0000;	
+.conference .go {
+  background-color: #B7937F;
 }
 
-
-
-/* FRONTEND */
-.conference.frontend,
-.conference.frontend a.button,
-.conference.frontend .session .scheduling .event {
-  background: #deb200;
+.conference .gov {
+  background-color: #d04e4e;
 }
 
-.conference.frontend .session-inner {
-	border-top: 2px solid #deb200;
+.conference .h4h {
+  background-color: #00dc00;
 }
 
-.conference.frontend .slot,
-.conference.frontend .container.light h2,
-.conference.frontend .links a.color:hover {
-  color: #deb200;	
+.conference .libraries {
+  background-color: #cbc873;
 }
 
-
-
-
-
-
-
-/* GO */
-.conference.go,
-.conference.go a.button,
-.conference.go .session .scheduling .event {
-  background: #B7937F;
+.conference .maker {
+	background-color: blue ;
 }
 
-.conference.go .session-inner {
-	border-top: 2px solid #B7937F;
-}
-
-.conference.go .slot,
-.conference.go .container.light h2,
-.conference.go .links a.color:hover {
-  color: #B7937F;	
-}
-
-
-
-
-
-/* MAKER */
-.conference.maker,
-.conference.maker a.button,
-.conference.maker .session .scheduling .event {
-  background: blue;
-}
-
-.conference.maker .session-inner {
-	border-top: 2px solid blue;
-}
-
-.conference.maker .slot,
-.conference.maker .container.light h2,
-.conference.maker .links a.color:hover {
-  color: blue;	
-}
-
-
-
-
-
-
-/* MAPS */
-.conference.maps {
+.conference .maps {
 	background: #a0c598;
 }
 
-
-
-
-
-/* METEOR */
-.conference.meteor {
+.conference .meteor {
   background: #333333;	
 }
 
-
-
-
-
-/* NERVES */
-.conference.nerves {
+.conference .nerves {
 	background-color: #676961;
 }
 
-.conference.nerves,
-.conference.nerves a.button,
-.session.nerves .scheduling .event {
-  background: #676961;
-}
-
-.session.nerves .session-inner {
-	border-top: 2px solid #676961;
-}
-
-.session.nerves .slot,
-.session.nerves .container.light h2,
-.session.nerves .links a.color:hover {
-  color: #676961;	
-}
-
-
-
-
-
-
-/* NEXTGEN */
-.conference.nextgen {
+.conference .nextgen {
 	background-color: #f029e0;
 }
 
-
-
-
-
-/* NODE */
-.conference.node,
-.conference.node a.button,
-.conference.node .session .scheduling .event {
-  background: #80BD01;
+.conference .node {
+	background-color: #80BD01;	
 }
 
-.conference.node .session-inner {
-	border-top: 2px solid #80BD01;
+.conference .npongo {
+	background-color: #b98c0e;	
 }
 
-.conference.node .slot,
-.conference.node .container.light h2,
-.conference.node .links a.color:hover {
-  color: #80BD01;	
-}
-
-
-
-/* OPEN */
-.conference.open {
+.conference .open {
 	background-color: white;
 }
 
-
-
-
-/* PHOENIX */
-.conference.phoenix,
-.conference.phoenix a.button,
-.session.phoenix .scheduling .event {
-  background: #F15523;
+.conference .phoenix {
+	background: #F15523;
 }
 
-.session.phoenix .session-inner {
-	border-top: 2px solid #F15523;
+.conference .phoenix {
+	background: #F15523;
 }
 
-.session.phoenix .slot,
-.session.phoenix .container.light h2,
-.session.phoenix .links a.color:hover {
-  color: #F15523;	
-}
-
-
-
-
-
-/* PYGOTHAM */
-.conference.pygotham {
+.conference .python {
 	background: #3f6b9d;
 }
 
-
-
-
-
-/* RAILS */
-.conference.rails,
-.conference.rails a.button,
-.conference.rails .session .scheduling .event {
-  background: #A62C39;
+.conference .rails {
+	background: #A62C39;
 }
 
-.conference.rails .session-inner {
-	border-top: 2px solid #A62C39;
+.conference .react {
+	background: #00D8FF;
 }
 
-.conference.rails .slot,
-.conference.rails .container.light h2,
-.conference.rails .links a.color:hover {
-  color: #A62C39;	
+.conference .security {
+	background: #949494;
 }
 
-
-
-
-/* REACT */
-.conference.react,
-.conference.react a.button,
-.session.react .scheduling .event {
-  background: #00D8FF;
+.conference .search {
+	background: #FF8066  ;
 }
 
-.session.react .session-inner {
-	border-top: 2px solid #00D8FF;
+.conference .startup {
+	background: #42c281;
 }
 
-.session.react .slot,
-.session.react .container.light h2,
-.session.react .links a.color:hover {
-  color: #00D8FF;	
+.conference .swift {
+	background: #ef5238;
 }
 
-
-
-
-
-/* SEARCH */
-.conference.search,
-.conference.search a.button,
-.conference.search .session .scheduling .event {
-  background: #FF8066;
+.conference .transfer {
+	background: #856bd8;
 }
 
-.conference.search .session-inner {
-	border-top: 2px solid #FF8066;
+.conference .webperf {
+	background: #800080;
 }
 
-.conference.search .slot,
-.conference.search .container.light h2,
-.conference.search .links a.color:hover {
-  color: #FF8066;	
+.conference .women {
+	background: #F593A7;
 }
 
-
-
-
-
-/* SWIFT */
-.conference.swift,
-.conference.swift a.button,
-.conference.swift .session .scheduling .event {
-  background: #ef5238;
-}
-
-.conference.swift .session-inner {
-	border-top: 2px solid #ef5238;
-}
-
-.conference.swift .slot,
-.conference.swift .container.light h2,
-.conference.swift .links a.color:hover {
-  color: #ef5238;	
-}
-
-
-
-
-
-/* WORDPRESS */
-.conference.wordpress {
+.conference .wordpress {
 	background: #21759b;
 }
 
 
-
-
-
-/* WEBPERF */
-.conference.webperf,
-.conference.webperf a.button,
-.conference.webperf .session .scheduling .event {
-  background: #800080;
-}
-
-.conference.webperf .session-inner {
-	border-top: 2px solid #800080;
-}
-
-.conference.webperf .slot,
-.conference.webperf .container.light h2,
-.conference.webperf .links a.color:hover {
-  color: #800080;	
-}
-
-
-
-
-
-/* WOMEN */
-.conference.women,
-.conference.women a.button,
-.conference.women .session .scheduling .event {
-  background: #fe94a7;
-}
-
-.conference.women .session-inner {
-	border-top: 2px solid #fe94a7;
-}
-
-.conference.women .slot,
-.conference.women .container.light h2,
-.conference.women .links a.color:hover {
-  color: #fe94a7;	
-}
-
-
-
-/* UN */
 .conference.un {
 	background: #4B92DB;
 }

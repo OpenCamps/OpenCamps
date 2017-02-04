@@ -1,7 +1,7 @@
 /* CONFERENCES - Layout */
 
 
-#conferences .conference {
+.conference {
   width: 33.3333%;
 	max-height: 33%;
 	display: inline-block;
@@ -17,11 +17,11 @@
 	flex: 1;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
-#conferences .conference a {
+.conference a {
 	border-bottom: none;	
 }
 
-#conferences .conference .inner {
+.conference .inner {
   height:100%;
 	padding: 1em .25em 1.5em;
 	position: relative;
@@ -33,7 +33,7 @@
 	border-right: 1px solid white;
 }
 
-#conferences .conference .icon {
+.conference .icon {
 	text-align: center;
 	vertical-align: middle;
 	display: inline-block;
@@ -42,27 +42,27 @@
 	margin: 0;
 }
 
-#conferences .conference .icon .inner {
+.conference .icon .inner {
 	text-align: center;
 	vertical-align: middle;
 }
 
-#conferences .conference .icon .icon-inner {
+.conference .icon .icon-inner {
 	text-align: center;
 	vertical-align: middle;
 }
 
-#conferences .conference .icon img {
+.conference .icon img {
 	width: 100%;
   height: auto;
 	opacity: 0.6;
 }
 
-#conferences .conference .icon img {
+.conference .icon img {
 	opacity: 1;
 }
 
-#conferences .conference .name {
+.conference .name {
  	font: .7em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-weight: 500;
 	text-align: center;
@@ -70,8 +70,8 @@
 	padding-top: .75em;
 }
 
-#conferences .conference .name,
-#conferences .conference .name a {
+.conference .name,
+.conference .name a {
  	font: .7em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-weight: 500;
 	text-align: center;
@@ -80,7 +80,7 @@
 	opacity: 0.8;
 }
 
-#conferences .conference .date {
+.conference .date {
  	font: .65em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-weight: 400;
 	padding-bottom: 0em;
@@ -88,7 +88,7 @@
 	opacity: 0.75;
 }
 
-#conferences .conference .details {
+.conference .details {
 	vertical-align: top;
 	display: inline-block;
 	width: 63%;
@@ -96,12 +96,12 @@
   margin: 0;
 }
 
-#conferences .conference .links {
+.conference .links {
   min-height: 1.1em;
 	padding-top: .2em;
 }
 
-#conferences .conference .links .link {
+.conference .links .link {
 	padding: 0 .2em;
 	display: inline-block;
 }
@@ -109,18 +109,18 @@
 
 
 
-#conferences .conference.python .link.facebook {
+.conference.python .link.facebook {
   display: none;
 }
 
-#conferences .conference .links a {
+.conference .links a {
 	color: white;
 	opacity: 0.8;
 	font-size: .9em;
 	line-height: 1em;
 }
 
-#conferences .conference .description {
+.conference .description {
   display: none;
   font: .9em/1.3em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
@@ -131,28 +131,28 @@
 
 @media only screen and (min-width: 560px) {
 
-  #conferences .conference {
+  .conference {
     width: 20%;
   }
 
-  #conferences .conference .icon {
+  .conference .icon {
   	width: 45%;  
   }
 
-  #conferences .conference .icon img {
+  .conference .icon img {
 	  margin-top: .5em;
   }
 
-  #conferences .conference .name {
+  .conference .name {
  	  padding-bottom: .5em;
   }
  
-  #conferences .conference .name,
-  #conferences .conference .name a {
+  .conference .name,
+  .conference .name a {
   	font-size: .85em;
   }
 
-  #conferences .conference .date {
+  .conference .date {
     font-size: .8rem;
 	  font-weight: 400;
 	  padding-bottom: .65em;
@@ -169,32 +169,36 @@
 	padding: 0;
   }
 
-  #conferences .conference {
+  .conference {
     width: 20%;
   }
 
-  #conferences .conference .inner {
+  .conference .inner {
   	margin-bottom: 1px;
   }
 	
-  #conferences .conference .name {
+  .conference .name {
  	  padding-bottom: .5em;
 	  padding-top: 1em;
   }
 
-  #conferences .conference .name,
-  #conferences .conference .name a {
+  .conference .name,
+  .conference .name a {
 	  font-size: 1.05rem;
   }
 
-  #conferences .conference .date {
+  .conference .date {
     font-size: 1em;
 	  font-weight: 400;
 	  padding-bottom: .65em;
 	  padding-top: .25em;
   }	
 
-  #conferences .conference .open .description {
+  body.conferences #header {
+  	_display: none;
+  }
+
+  .conference .open .description {
     font-size: .85em;
   	padding-right: .6em;
   	padding-left: .6em;
@@ -207,51 +211,51 @@
 
 @media only screen and (min-width: 1024px) {
 
-  #conferences .conference {
+  .conference {
     width: 20%;
     height: 25%;
   }
 
-  #conferences .conference .inner {
+  .conference .inner {
   	padding: 0 1em 1em;
    	margin-bottom: 0px;
   }
   
-	#conferences .conference .icon {
+	.conference .icon {
 		width: 50%;
 		padding: 1em 0em 1.75em;
 	}
 	
-	#conferences .conference .icon .inner {
+	.conference .icon .inner {
 		text-align: center;
 		vertical-align: middle;
 		padding: 1em 1em 1.75em;
   }
 	
-	#conferences .conference .icon .inner img {
+	.conference .icon .inner img {
 	  width: 100%;
 	  height: auto;
 		padding-bottom: 0;
 		display: block;
 	}
 
-	#conferences .conference div {
+	.conference div {
 		display: block;
 		clear: both;
 		vertical-align: top;
 	}
 	
-  #conferences .conference .name {
+  .conference .name {
  	  padding-bottom: .25em;
 	  padding-top: 0em;
   }
 
-  #conferences .conference .name,
-  #conferences .conference .name a {
+  .conference .name,
+  .conference .name a {
   	font-size: 1.2rem;
   }
 
-  #conferences .conference .open .description {
+  .conference .open .description {
     font-size: 1em;
   	padding-right: .7em;
   	padding-left: .7em;
@@ -266,13 +270,13 @@
 
 @media only screen and (min-width: 1280px) {
 		
-	#conferences .conference {
+	.conference {
 	  _width: 20%;  /* 5col */
 	  width: 16.666666%;  /* 6-col */
 	}
 
-  #conferences .conference .icon {
-  	width: 50%;visibility
+  .conference .icon {
+  	width: 50%;
   }
 
 }
@@ -282,7 +286,7 @@
 
 @media only screen and (min-width: 1600px) {	
 
-  #conferences .conference {
+  .conference {
 	  _width: 20%;  /* 6-col */
 	  width: 16.666666%;  /* 6-col */
 	  _width: 14.28571%; /* 7-col */
@@ -328,8 +332,3 @@
 .conference .links .facebook {
 	display: none!important;
 }
-
-
-
-
-/* TEMP */
