@@ -178,7 +178,7 @@ _body.conferences #page {
 /* HEADER */
 
 #header {
-	background: url(../images/photos/un-header-sm2.jpg) center center no-repeat white;
+	background: url(../images/photos/header.jpg) center center no-repeat white;
 	text-align: center;
 	overflow: hidden;
 	border-bottom: 1px solid #424242;
@@ -573,7 +573,7 @@ _body.conferences #page {
 
   #header {
 	  height:360px;
-  	background: url(../images/photos/un-header4.jpg) center center no-repeat white;
+  	background: url(../images/photos/header.jpg) center center no-repeat white;
   }	
   
   #header #tagline p {
