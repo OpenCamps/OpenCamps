@@ -295,11 +295,11 @@
   },
 
   {
-    "name": "Libraries Camp",
+    "name": "Library Camp",
     "description": "",
-    "camp": "libraries",
+    "camp": "library",
     "dates": "",
-    "icon": "icon-libraries.png",
+    "icon": "icon-library.png",
     "website": "http://MakerCamp.nyc",
     "twitter": "http://twitter.com/maker_camp",
     "facebook": "https://www.facebook.com/Maker-Camp-1092305667499363",
