@@ -109,7 +109,15 @@ body {
 }
 
 #page {
-	padding: 0px 0 23px;
+	_padding: 0px 0 23px;
+  padding: 0;
+}
+
+.content p,
+.content h4,
+.content ul {
+	margin-right: 1px;
+	margin-left: 1em;
 }
 
 _body.conferences #page {
@@ -369,10 +377,15 @@ _body.conferences #page {
 	clear: both;
 	display: block;
 	_height: 60px;
-	position: fixed;
-	bottom: 0;
+	_position: fixed;
+	_bottom: 0;
 	margin: 0;
 	border-top: 1px solid #424242;
+	background-color: #646262;
+}
+
+#footer .inner {
+	padding: 1em;
 }
 
 #footer p {
@@ -568,7 +581,8 @@ _body.conferences #page {
 @media only screen and (min-width: 1024px) {
 
   #page {
-  	padding: 0px 0 44px;
+  	_padding: 0px 0 44px;
+  	padding: 0;
   }
 
   #header {
