@@ -1,5 +1,17 @@
   function getConferences(conferences) {
     var outputConferences = "";
+
+    var outputConferences =
+			'<div class=\"oc-intro\">'+
+				 '<div class=\"oc-logo\"> '+
+						'<a href=\"http://opencamps.org\" target="_blank"><img src=\"\"></a>'+
+				'</div>'+
+				'<div class=\"oc-text\">'+
+          '<p><strong>Interested in other open source technologies?</strong></>'+
+          '<p>Check out the many <a href=\"http://opencamps.org\" target=\"_blank\">Open Camps</a> conferences!</>'+
+				'</div>'+
+			'</div>';
+
     var i;
     for(i = 0; i<conferences.length; i++) {
       outputConferences +=
@@ -15,5 +27,5 @@
 				'</div>'+
         '</div>';
     }
-    document.getElementById("conferences").innerHTML = outputConferences;
+    document.getElementById("opencamps-embed").innerHTML = outputConferences;
   }

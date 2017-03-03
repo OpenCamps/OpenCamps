@@ -1,5 +1,7 @@
   function getOrganizers(organizers) {
+
     var outputOrganizers = "";
+
     var i;
     for(i = 0; i<organizers.length; i++) {
       outputOrganizers +=

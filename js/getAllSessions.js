@@ -1,4 +1,7 @@
+
 function getSessions(sessions) {
+
+
 
    var sessions = sessions.filter(sessionsFilter);
 
@@ -42,4 +45,9 @@ function getSessions(sessions) {
     }
     document.getElementById("sessions-inner").innerHTML = outputSessions;
   }
+  
+  
+  
+  
+  
   

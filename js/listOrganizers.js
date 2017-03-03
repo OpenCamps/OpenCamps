@@ -307,6 +307,20 @@
 		"bio":"",
 		"conferences":"maps"
 	},
+	
+	{
+		"nameFirst":"Aferdita",
+		"nameLast":"Muriqi",
+		"photo":"aferdita-muriqi.png",
+		"linkedin":"https://www.linkedin.com/in/aferdita",
+		"twitter":"http://twitter.com/aferditamuriqi",
+		"github":"http://github.com/aferditamuriqi",
+		"website":"http://d-i-t-a.com/",
+		"organization":"BYPL &bull; NYU &bull; DITA &bull; NYCSwift",
+		"role":"",
+		"bio":"",
+		"conferences":"swift"
+	},
 
 	{
 		"nameFirst":"James",
@@ -333,7 +347,7 @@
 		"github":"http://github.com/nitya",
 		"website":"",
 		"bio":"",
-		"organization":"Digital HV",
+		"organization":"DIgital HV",
 		"role":"Owner",
 		"conferences":"android, apps"
 	},
