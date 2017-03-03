@@ -4,8 +4,12 @@
   background-color: #0d66f2;
 }
 
-.conference .ai {
-  background-color: #7B93A5;
+
+
+.conference.ai,
+.conference.ai a.button,
+.conference.ai .session .scheduling .event {
+  background: #7B93A5;
 }
 
 .conference .android {
