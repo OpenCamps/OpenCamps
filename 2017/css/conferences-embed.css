@@ -1,0 +1,308 @@
+/* CONFERENCES - Embed */
+
+#opencamps-embed {
+	background-color: #f5f5f5;
+	border: 1px solid gray;
+	min-width: 480px;
+	margin: 0;
+	padding: 0;
+}
+
+#opencamps-embed p {
+
+
+}
+
+#opencamps-embed .oc-intro {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 1em;
+    padding: 0 1rem;
+	text-align:center;
+}
+
+#opencamps-embed .oc-intro .oc-logo {
+  width: 75px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#opencamps-embed .oc-logo img {
+    width: 100%;
+    height: auto;
+}
+
+#opencamps-embed .oc-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: .15em;
+}
+
+#opencamps-embed .oc-text p {
+	color: gray;
+  line-height: 1.4em;
+  font: .95rem 'Work Sans', 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+  padding-left: 10px;
+	margin-top: 0;
+  margin-bottom: .5em;
+}
+
+#opencamps-embed .oc-text a {
+    color: gray;
+    font-weight: 500;
+}
+
+
+
+#conferences {
+	margin-top: 1rem;
+}
+
+#opencamps-embed .conference {
+  width: 33%;
+	display: inline-block;
+	margin: 0;
+	color: white;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	-webkit-box-flex: 1; /* OLD - iOS 6-, Safari 3.1-6 */
+	-moz-box-flex: 1;    /* OLD - Firefox 19- */                /* For old syntax, otherwise collapses. */
+	-webkit-flex: 1;     /* Chrome */
+	-ms-flex: 1;         /* IE 10 */
+	flex: 1;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+#opencamps-embed .conference a {
+	border-bottom: none;	
+}
+
+#opencamps-embed .conference .inner {
+  height:125px;
+	padding: 1em .25em 1.5em;
+	position: relative;
+}
+
+#opencamps-embed .conference .icon {
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+  width: 50px;
+  padding: .2rem 0em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  #opencamps-embed .conference .icon img {
+	  margin-top: .5em;
+  }
+
+  #opencamps-embed .conference .name {
+ 	  padding-bottom: .5em;
+  }
+
+#opencamps-embed .conference .icon .inner {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#opencamps-embed .conference .icon .icon-inner {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#opencamps-embed .conference .icon img {
+	width: 100%;
+  height: auto;
+	opacity: 0.6;
+}
+
+#opencamps-embed .conference .icon img {
+	opacity: 1;
+}
+
+#opencamps-embed .conference .name {
+ 	font: .6rem 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: .5em;
+	padding-top: .75em;
+}
+
+#opencamps-embed .conference .name,
+#opencamps-embed .conference .name a {
+ 	font: .6rem 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+#opencamps-embed .conference .date {
+ 	font: .6em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 400;
+	padding-bottom: 0em;
+	text-align: center;
+}
+
+#opencamps-embed .conference .details {
+	vertical-align: top;
+	display: inline-block;
+	width: 63%;
+  padding: 0;
+  margin: 0;
+}
+
+#opencamps-embed .conference .links {
+  min-height: 1.1em;
+	padding-top: .2em;
+}
+
+#opencamps-embed .conference .links .link {
+	padding: 0 .2em;
+	display: inline-block;
+}
+
+
+
+
+#opencamps-embed .conference.python .link.facebook {
+  display: none;
+}
+
+#opencamps-embed .conference .links a {
+	color: white;
+	opacity: 0.8;
+	font-size: .9em;
+	line-height: 1em;
+}
+
+#opencamps-embed .conference .description {
+  display: none;
+  font: .9em/1.3em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+
+
+@media only screen and (min-width: 560px) {
+
+  #opencamps-embed .conference {
+    width: 20%;
+  }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+  #opencamps-embed .conference {
+    width: 16.666666666667%;
+  }
+
+	#opencamps-embed .conference .icon {
+		width: 50px;
+		padding: .2rem 0em;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+  #opencamps-embed .conference .name {
+ 	  padding-bottom: .5em;
+	  padding-top: 1em;
+  }
+
+
+  #opencamps-embed .conference .open .description {
+    font-size: .85em;
+  	padding-right: .6em;
+  	padding-left: .6em;
+  }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+  #opencamps-embed .conference {
+    width: 10%;
+  }
+
+  #opencamps-embed .conference .inner {
+  	padding: 0 .2rem .2rem;
+  }	
+	
+	#opencamps-embed .conference .icon .inner {
+		text-align: center;
+		vertical-align: middle;
+		padding: 1em 1em 1.75em;
+  }
+	
+	#opencamps-embed .conference .icon .inner img {
+	  width: 100%;
+	  height: auto;
+		padding-bottom: 0;
+	}
+
+	#opencamps-embed .conference div {
+		display: block;
+		clear: both;
+		vertical-align: top;
+	}
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1280px) {
+		
+	#opencamps-embed .conference {
+	}
+
+
+}
+
+
+@media only screen and (min-width: 1600px) {	
+
+  #opencamps-embed .conference {
+	  width: 10%;  /* 6-col */
+  }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1800px) {	
+
+  #opencamps-embed .conference {
+	  width: 10%;  /* 6-col */
+  }
+
+
+}
+
+
+
+/* TEMP */
+
+#opencamps-embed .oc-intro .oc-logo {
+  display: none!important;
+}
+
+#opencamps-embed .conference.design {
+	display: none;
+}

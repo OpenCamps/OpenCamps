@@ -1,0 +1,113 @@
+/* Open Camps */
+
+.conference.open {
+  display: none;
+}
+
+.conference.open .inner {
+	padding-top: .5em;
+}
+
+.conference .open .icon,
+.conference .open:hover .description,
+.conference .open .name,
+.conference .open .name a,
+.conference .open .date,
+.conference .open .links {
+  display: none;
+}
+
+.conference .open .description {
+	color: #424242;
+	padding-right: .25em;
+	padding-left: .25em;
+	display: block;
+	font-size: .85em;
+}
+
+.conference .open .inner {
+	position: relative;
+}
+
+ {
+  display: block!important;
+  color: #424242;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.conference .open .links a {
+  color: #a4a4a4;
+}
+
+.conference .open .link .website {
+ display: none;
+}
+
+
+
+
+.conference.open {
+	  display: inline-block;
+  }
+
+
+  .conference .open .link {
+    color: #a4a4a4;
+  	padding-bottom: 1px;
+  	display: block;
+  }
+
+  .conference .open {
+  	padding-bottom: .5em;
+  	padding-top: .75em;
+  }
+
+  .conference .open .icon {
+	  width: 65%;
+  }
+
+  .conference .open .links {
+  	padding-right: .2em;
+  	padding-top: .2em;
+  }
+
+  .conference .open .icon {
+  	padding-top: .35em;
+  }
+
+  .conference .open img {
+    width: 100%;
+    height: auto;
+  	margin-top: .5em;
+  	padding: 0;
+  }
+
+  .conference .open .name {
+    font-size: 1.65em;
+  }
+
+  .conference .open .date {
+    font-size: .9em;
+  	margin-top: 0;
+  	padding-top: .35em;
+  	padding-bottom: .75em;
+  	font-weight: 700;
+  }
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 1280px) {
+  
+    .conference .open .description {
+      font-size: 1.09em;
+    	padding-right: .7em;
+    	padding-left: .7em;
+    	line-height: 1.3em;
+    }
+  
+  }

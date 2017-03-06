@@ -1,0 +1,479 @@
+/* Open Camps */
+
+
+
+
+/* PAGES - Partnerships */
+
+body.partnerships #page {
+	padding: 0px 0 34px;
+}
+
+
+body.partnerships .content {
+	width: 100%;
+}
+
+body.partnerships a.about {
+	display: none;
+}
+
+body.partnerships div {
+}
+
+body.partnerships p {
+	_font: 1em Quicksand, sans-serif;
+	_font: 1em 'Source Sans Pro', sans-serif;
+	font: .9em Ubuntu, sans-serif;
+	line-height: 1.5em;
+	font-weight: 300;
+	color: #424242;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+body.partnerships li {
+  font: .9em Ubuntu, sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #424242;
+}
+
+
+.partnerships .promo .inner {
+	padding-top: 3rem;
+}
+.partnerships .moonshot {
+	text-decoration: line-through;
+}
+
+
+.lead ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+  display: inline-block;
+	padding-left: 1rem;
+}
+
+.lodging li {
+	margin-left: 15px;
+	margin-bottom: .25em;
+}
+
+
+.team-image {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+  margin-right: -4px;
+  position: relative;
+  vertical-align: top;
+}
+
+.team-image img {
+	width: 100%;
+  height: auto;
+}
+
+.team-image .name {
+	font-size: .65em;
+	color: #e8e8e8;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+  background:rgba(50,50,50,0.85);
+	width: 100%;
+	height: 50%;
+	vertical-align: middle;
+	padding: 0em;
+	display: none;
+}
+
+.team-image:hover .name {
+	display: block;
+}
+
+
+.content-row h3 {
+	font: 1em/1em Ubuntu, sans-serif;
+	color: #424242;
+  font-weight: 500;
+  letter-spacing: -.035em;
+	margin: 0;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+
+.content-row {
+	width: 90%;
+	overflow: hidden;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 1.5rem;
+}
+
+	
+.col-text {
+  vertical-align: top;
+  width: 100%;
+	background-color: white;
+	display: inline-block;
+}
+
+.content-row h2 {
+	font: 2em/1em "Ubuntu", sans-serif;
+  color: white;
+	font-weight: 600;
+	padding: .5rem 1rem .25rem;
+
+}
+
+.content-row .wrapper {
+	background-color: white;
+	overflow: hidden;
+}
+
+.founding .wrapper {
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.content-row.intro h1 {
+	color: #424242;
+	text-align: center;
+}
+
+.content-row.intro p {
+	text-align: center;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content-row.founding {
+	margin-top: 2em;
+	overflow: hidden;
+}
+
+.content-row.founding .inner{
+	padding-left: 0;
+}
+
+.content-row.founding .col-text {
+  display: inline-block;
+	width: 45%;
+}
+
+.content-row.founding .col-img {
+  display: inline-block;
+	width: 53.5%;
+	overflow: hidden;
+}
+
+
+.content-row.founding h2 {
+  background-color: #000;
+	color: white;
+}
+
+.content-row.founding .wrapper {
+	border: 1px solid #000;
+	margin: 0;
+}
+
+.content-row.lead .wrapper {
+	border: 1px solid #424242;
+	margin: 0;
+	overflow: hidden;
+}
+
+.content-row.lead h2 {
+  background-color: #424242;
+	color: white;
+}
+
+
+.gold h2 {
+  background-color: #black;		
+}
+
+.gold .wrapper {
+	border: 1px solid #e7c303;
+}
+
+.gold h2 {
+  background-color: #e7c303;		
+}
+
+.silver .wrapper {
+	border: 1px solid #c0c0c0;
+}
+
+.silver h2 {
+  background-color: #c0c0c0;		
+}
+
+.bronze .wrapper {
+	border: 1px solid #cd7f32;
+}
+
+.bronze h2 {
+  background-color: #cd7f32;		
+}
+
+.community .wrapper {
+	border: 1px solid #21aa21;
+}
+
+.community h2 {
+  background-color: #21aa21;		
+}
+
+
+
+.content-row h2 {
+	margin-top: 0;
+	padding-top: 1rem;
+}
+
+.content-row h3 {
+	font: 1em Ubuntu, sans-serif;
+	color: #424242;
+  font-weight: 500;
+  letter-spacing: -.035em;
+	margin-top: 0;
+}
+
+body.about p,
+body.about li {
+	font-size: .8em;
+	line-height: 1.35em;
+	font-weight: 300;
+}
+
+.col-img {
+  float: right;
+  display: inline-block;		
+  width: 45%;
+  font-size:  0;
+  vertical-align: middle;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	overflow: hidden;
+}
+
+.col-img img {
+  width: 100%;
+  height: auto;
+	margin: 0;
+	padding: 0;
+  Shape-renderingfont-size: 0;
+  display: block;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .col-image {
+    width: 40%;
+  	margin-bottom: 3rem;
+  }
+
+	.content-row.gold,
+	.content-row.silver,
+	.content-row.bronze,
+	.content-row.community {
+		width: 46.5%;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
+	}
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+	
+	
+	
+	.content-row {
+		padding-left: 0;
+	}
+
+	.content-row .wrapper {
+  	margin: 2rem;
+  }
+
+	.content-row .inner {
+  	padding: 0 0 0 2em;
+  }
+	
+	.col-text {
+	  vertical-align: top;
+	  _display: inline-block;	
+	  width: 44%;
+	}
+		
+	.col-text h2 {
+		font: bolder 3em;
+		color: #424242;
+	  font-weight: 900;
+		margin-bottom: .25em;
+		margin-top: .5em;
+	}
+	
+	.col-text h3 {
+
+	}
+
+  body.partnerships p,
+  body.partnerships li {
+  }
+	
+	.col-image {
+	  _display: inline-block;		
+	  width: 55%;
+	  margin-left: 0rem;
+	}
+	
+	.col-image img {
+	  width: 100%;
+	  height: auto;
+		margin: 0;
+		padding: 0;
+	  Shape-renderingfont-size: 0;
+	  display: block;
+	  line-height: 0;
+	  vertical-align: middle;
+	}
+	
+	.content-row.partnerships .col-image img {
+	  width: 100%;
+	  height: auto;
+		margin: 0;
+		padding: 0;
+	  Shape-renderingfont-size: 0;
+	  display: block;
+	  line-height: 0;
+	  vertical-align: middle;
+	}
+
+	.content-row .col-image {
+		_float: right;
+	}
+
+	.content-row.lead .col-image,
+	.content-row.silver .col-image {
+		float: left;
+		margin: 0 1rem 0 0;
+	}
+
+.content-row.founding .col-image,
+.content-row.gold .col-image,
+.content-row.bronze .col-image,
+.content-row.custom .col-image {
+	margin: 0 0 0 1rem;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+	
+.content-row h2 {
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 0;
+}
+
+.content-row h3 {
+	font: 1.5rem Ubuntu, sans-serif;
+	padding-right: 5rem;
+	padding-top: .5rem;
+	padding-left: 1rem;
+}
+
+body.partnerships p,
+body.partnerships li {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 300;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1600px) {	
+
+
+body.about p {
+	font-size: 1.1rem;
+	line-height: 1.5em;
+	font-weight: 300;
+	padding-right: 5rem;
+	padding-left: 5rem;
+}
+
+body.about li {
+	font-size: 1.1rem;
+	line-height: 1.5em;
+	font-weight: 300;
+}
+
+.content-row.about .col-image,
+.content-row.venue .col-image,
+.content-row.food .col-image,
+.content-row.contact .col-image {
+	margin: 0 0 0 5rem;
+}
+
+.content-row.initiatives .col-image,
+.content-row.lodging .col-image,
+.content-row.team .col-image {
+	margin: 0 5rem 0 0;
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1800px) {	
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

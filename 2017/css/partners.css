@@ -1,0 +1,49 @@
+/* PARTNERS */
+
+
+#partners {
+  margin-bottom: -50px;
+  height: 50px;
+  background-color: white;
+  display: none;
+}
+
+.partners {
+	background-color: #c0c0c0;
+	padding: 1em;
+}
+
+.partners .row {
+	margin-bottom: 1em;
+}
+
+.partners div div {
+  display: inline-block;
+}
+
+.partners div a img {
+	width: 100%;
+  height: auto;
+	padding: 3em;
+	opacity: 0.7;
+}
+
+.partners div a:hover img {
+	opacity: 1;
+}
+
+.partners .platinum div {
+  width: 33%;
+}
+
+.partners .gold div {
+  width: 25%;
+}
+
+.partners .silver div {
+  width: 20%;
+}
+
+.partners .bronze div {
+  width: 15%;
+}

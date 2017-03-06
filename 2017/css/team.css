@@ -1,0 +1,195 @@
+/* Open Camps - Team */
+
+.organizers {
+	border-bottom: 1px solid white;	
+	border-left: 1px solid white;	
+}
+
+.organizer {
+	width: 24.7%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+}
+
+.organizer img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.organizer .links {
+	text-align: center;
+}
+
+
+.organizer .link {
+	display: inline-block;
+	padding: .25rem 3px 3px;
+}
+
+.organizer .link a {
+	color: white;
+}
+
+.organizer .details {
+	background-color: gray;
+	padding-bottom: .3rem;
+	font-size: .8em;
+	border-top: 1px solid silver;
+	padding-top: 0;
+}
+
+.organizer .name-first,
+.organizer .name-last {
+	font-size: .8rem;
+	color: white;
+	text-align: center;
+	padding-to: .5rem;
+	padding-top: 3px;
+}
+
+body.team h2 {
+	font: 2em/1em "FuturaT", sans-serif;
+	color: #424242;
+	font-weight: 900;
+  letter-spacing: -.06em;
+	padding: .5rem 1rem .25rem;
+}
+
+.team h3 {
+	font: 1em Ubuntu, sans-serif;
+	color: #424242;
+  font-weight: 500;
+  letter-spacing: -.035em;
+	margin-top: 0;
+	padding-left: 1rem;
+}
+
+.team p.intro {
+	padding-left: 1rem;
+	
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+	
+		
+	.team h2 {
+		font: bolder 3em;
+		color: #424242;
+	  font-weight: 900;
+		margin-bottom: .25em;
+		margin-top: .5em;
+	}
+	
+	.col-text h3 {
+
+	}
+
+  
+}
+
+
+@media only screen and (min-width: 1200px) {
+	
+	.organizer {
+		width: 12.4%;
+	}
+	
+	.team h2 {
+		font-size: 3.25rem;
+	  padding-top: .5rem;
+	  padding-bottom: .25rem;
+	
+	}
+	
+	.team h3 {
+		font: 1.25rem Ubuntu, sans-serif;
+	}
+	
+	body.team p,
+	body.team li {
+		font-size: 1rem;
+		line-height: 1.5rem;
+		font-weight: 300;
+		margin-left: 1rem;
+	}
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1600px) {	
+	
+	body.team .content-row h2 {
+		font-size: 5rem;
+		padding: 5rem 5rem 1rem;
+		margin: 0;
+	}
+	
+	body.team .content-row h3 {
+		font: 1.5rem Ubuntu, sans-serif;
+		padding-right: 5rem;
+		padding-left: 5rem;
+	}
+	
+	body.team p {
+		font-size: 1.1rem;
+		line-height: 1.5em;
+		font-weight: 300;
+		padding-right: 5rem;
+		padding-left: 5rem;
+	}
+	
+	body.team li {
+		font-size: 1.1rem;
+		line-height: 1.5em;
+		font-weight: 300;
+	}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1800px) {	
+
+ 
+
+
+/* TEMP */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,334 @@
+/* CONFERENCES - Layout */
+
+
+.conference {
+  width: 33.3333%;
+	max-height: 33%;
+	display: inline-block;
+	margin: 0;
+	color: white;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	-webkit-box-flex: 1; /* OLD - iOS 6-, Safari 3.1-6 */
+	-moz-box-flex: 1;    /* OLD - Firefox 19- */                /* For old syntax, otherwise collapses. */
+	-webkit-flex: 1;     /* Chrome */
+	-ms-flex: 1;         /* IE 10 */
+	flex: 1;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.conference a {
+	border-bottom: none;	
+}
+
+.conference .inner {
+  height:100%;
+	padding: 1em .25em 1.5em;
+	position: relative;
+  top: 50%;  
+  _-webkit-transform: translateY(-50%);
+  _-ms-transform: translateY(-50%);
+  _xtransform: translateY(-50%);
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.conference .icon {
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+  width: 50%;
+	padding: 0 0 .1em;
+	margin: 0;
+}
+
+.conference .icon .inner {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.conference .icon .icon-inner {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.conference .icon img {
+	width: 100%;
+  height: auto;
+	opacity: 0.6;
+}
+
+.conference .icon img {
+	opacity: 1;
+}
+
+.conference .name {
+ 	font: .7em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: .5em;
+	padding-top: .75em;
+}
+
+.conference .name,
+.conference .name a {
+ 	font: .7em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.conference .date {
+ 	font: .65em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 400;
+	padding-bottom: 0em;
+	text-align: center;
+	opacity: 0.75;
+}
+
+.conference .details {
+	vertical-align: top;
+	display: inline-block;
+	width: 63%;
+  padding: 0;
+  margin: 0;
+}
+
+.conference .links {
+  min-height: 1.1em;
+	padding-top: .2em;
+}
+
+.conference .links .link {
+	padding: 0 .2em;
+	display: inline-block;
+}
+
+
+
+
+.conference.python .link.facebook {
+  display: none;
+}
+
+.conference .links a {
+	color: white;
+	opacity: 0.8;
+	font-size: .9em;
+	line-height: 1em;
+}
+
+.conference .description {
+  display: none;
+  font: .9em/1.3em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+
+
+@media only screen and (min-width: 560px) {
+
+  .conference {
+    width: 20%;
+  }
+
+  .conference .icon {
+  	width: 45%;  
+  }
+
+  .conference .icon img {
+	  margin-top: .5em;
+  }
+
+  .conference .name {
+ 	  padding-bottom: .5em;
+  }
+ 
+  .conference .name,
+  .conference .name a {
+  	font-size: .85em;
+  }
+
+  .conference .date {
+    font-size: .8rem;
+	  font-weight: 400;
+	  padding-bottom: .65em;
+  }	
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  
+  _body.conferences #page {
+	padding: 0;
+  }
+
+  .conference {
+    width: 20%;
+  }
+
+  .conference .inner {
+  	margin-bottom: 1px;
+  }
+	
+  .conference .name {
+ 	  padding-bottom: .5em;
+	  padding-top: 1em;
+  }
+
+  .conference .name,
+  .conference .name a {
+	  font-size: 1.05rem;
+  }
+
+  .conference .date {
+    font-size: 1em;
+	  font-weight: 400;
+	  padding-bottom: .65em;
+	  padding-top: .25em;
+  }	
+
+  body.conferences #header {
+  	_display: none;
+  }
+
+  .conference .open .description {
+    font-size: .85em;
+  	padding-right: .6em;
+  	padding-left: .6em;
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+  .conference {
+    width: 20%;
+    height: 25%;
+  }
+
+  .conference .inner {
+  	padding: 0 1em 1em;
+   	margin-bottom: 0px;
+  }
+  
+	.conference .icon {
+		width: 50%;
+		padding: 1em 0em 1.75em;
+	}
+	
+	.conference .icon .inner {
+		text-align: center;
+		vertical-align: middle;
+		padding: 1em 1em 1.75em;
+  }
+	
+	.conference .icon .inner img {
+	  width: 100%;
+	  height: auto;
+		padding-bottom: 0;
+		display: block;
+	}
+
+	.conference div {
+		display: block;
+		clear: both;
+		vertical-align: top;
+	}
+	
+  .conference .name {
+ 	  padding-bottom: .25em;
+	  padding-top: 0em;
+  }
+
+  .conference .name,
+  .conference .name a {
+  	font-size: 1.2rem;
+  }
+
+  .conference .open .description {
+    font-size: 1em;
+  	padding-right: .7em;
+  	padding-left: .7em;
+  	line-height: 1.3em;
+  }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1280px) {
+		
+	.conference {
+	  _width: 20%;  /* 5col */
+	  width: 16.666666%;  /* 6-col */
+	}
+
+  .conference .icon {
+  	width: 50%;
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 1600px) {	
+
+  .conference {
+	  _width: 20%;  /* 6-col */
+	  width: 16.666666%;  /* 6-col */
+	  _width: 14.28571%; /* 7-col */
+    height: 25%;
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 1800px) {	
+
+  .conference {
+	  width: 16.666666%;  /* 6-col */
+  	height: 33%;
+  }
+
+  .conference .inner {
+  	padding-top: 1em;
+  	padding-bottom: 1em;
+  	margin-bottom: 1px;
+  }
+
+  .conference .name,  
+  .conference .name a {
+	  font-size: 1.25rem;
+  }
+  
+  .conference .date {
+  	font-size: 1em;
+  }
+
+}
+
+
+/* TEMP */
+
+.conference.design {
+	display: none;
+}
+
+.conference .links .facebook {
+	display: none!important;
+}

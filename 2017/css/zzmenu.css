@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+}
+
+#main-menu,
+.show-menu,
+#show-menu,
+#menu {
+  z-index: 100;
+}
+
+
+#main-menu a {
+	border-bottom-style: none;
+	color: white;
+}
+
+#main-menu .fa-bars {
+	color: white;
+}
+
+.show-menu {
+	padding: 10px;
+	color: #a4a4a4;
+	position: fixed;
+	top: 28px;
+	right: 0;
+	display:block;
+	width: 30px;
+}
+
+#main-menu ul#menu  {
+	right: 0;
+	border-top: 1px solid #e7e7e7;
+	top: 95px;
+	position: fixed;
+	opacity: .97;
+}
+
+#main-menu ul {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	width: 100%;
+  position: static;
+  display: none;
+}
+
+#main-menu ul#menu {
+	margin: 0px 0 0;
+}
+
+#main-menu ul li {
+	width: 100%;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+}
+
+#main-menu ul li li {
+	border-left: none;
+	
+}
+
+/* Parent Links */
+#main-menu ul li a {
+	width: 100%;
+	display:block;
+	text-align: center;
+	line-height: 1em;
+	font: .9em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #fff;
+	background: #b4b4b4;
+	text-decoration: none;
+	padding: .58em 0;
+}
+
+/* Parent Links - Hover */
+#main-menu ul li:hover a {
+	background: silver;
+}
+
+/* Dropdown Links - Hide */
+#main-menu li ul {
+	display: none;
+	margin-top:  0;
+}
+
+/* Dropdown Links*/
+#main-menu li:hover ul a {
+	font-size: .8em;
+	background: #d3d3d3;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+}
+
+/* Dropdown Links - Hover*/
+#main-menu li:hover ul a:hover {
+	background: silver;
+	color: #fff;
+}
+
+/* Dropdown Links - Make vertical*/
+#main-menu li ul li {
+	display: block;
+	float: none;
+}
+
+/*Dropdown Links - Prevent Text Wrapping*/
+#main-menu li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0px;
+}
+
+/*Dropdown Links - Display on Hover */
+#main-menu ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+/*Hide Checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show Menu OnClick (When Invisible Checkbox is Checked) */
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+
+
+/*Responsive Styles*/
+
