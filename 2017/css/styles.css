@@ -621,7 +621,8 @@ _body.conferences #page {
 
 /* CARDS */
 
-h3#about {
+h3#about,
+h3#photos {
 	font-size: 3em;
 	color: #b3b3b3;
 	text-align: center;
@@ -652,13 +653,15 @@ h3#about {
 	font-size: 1.5em;
 	text-decoration: none;
 	color: #4f4f4f;
-	margin-bottom: .5em;
+	margin-bottom: 15px;
+	padding-bottom: 0;
 }
 
 .card h5 {
 	font-size: 1.2em;
 	color: gray;
 	margin-bottom: .75em;
+	margin-top: .25em;
 }
 
 .card .inner {
@@ -696,6 +699,27 @@ h3#about {
   }
 }
 
+
+
+/* PHOTOS */
+
+#photos {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 30px;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	background-color: white;
+}
+
+
+#photos #flickrembed {
+	margin-top: 29px;
+}
+
+#photos .photo-credit {
+	font-size: 13px;
+}
 
 /* TEMP */
 
