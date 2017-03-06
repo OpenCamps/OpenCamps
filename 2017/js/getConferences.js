@@ -12,7 +12,8 @@ if (conferences[i].camp != 'pygotham' && conferences[i].camp != 'wordpress' ) {
 //						   '<div class="icon-inner"><a href="' + conferences[i].website + '" target="_blank" class="website"><img src="/2017/images/icons/' + conferences[i].icon + '" class="icon"/></a></div>'+
 					  	   '<div class="icon-inner"><img src="2017/images/icons/' + conferences[i].icon + '" class="icon"/></div>'+
 						 '</div>'+
-						 '<div class="name"><a href="' + conferences[i].website + '" target="_blank" class="website">' + conferences[i].name + '</a></div>'+
+//  				 '<div class="name"><a href="' + conferences[i].website + '" target="_blank" class="website">' + conferences[i].name + '</a></div>'+
+						 '<div class="name">' + conferences[i].name + '</div>'+
 //						 '<div class="date">' + conferences[i].dates + '</div>'+
 //						 '<div class="description">' + conferences[i].description + '</div>'+
 						 '<div class="links">'+
